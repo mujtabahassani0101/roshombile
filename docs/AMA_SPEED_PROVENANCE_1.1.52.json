@@ -1,0 +1,18 @@
+{
+  "version": "1.1.52",
+  "reason": "Reuse the selected normalization pixels while persisting them, and prioritize legacy print candidates for verified opaque roster identifiers without changing any geometric acceptance or answer threshold.",
+  "intentionalChanges": {
+    "native/roshd_adapter/RoshdEngine.cpp": {
+      "originalSha256": "243c2522ee03eacf029d8dc4c96771b59d9db7e6babc460975c7af41653c7008",
+      "optimizedSha256": "5ae6f666e6e98b7e9e516b89c8ab28dc60988ff06f545c845e2cc84cbcc9d5e7"
+    },
+    "native/omr_engine/omr-mobile-engine/cpp/src/NormalizeEngine.cpp": {
+      "originalSha256": "d63bc61430d5578b59ff475db8aab4b03e9a47923ad1a4c7025d1e9d2590ec85",
+      "optimizedSha256": "fe5ebd877d22e071ceea32bd70f323a1bc4269105e57517a449e2f15bddffc1a"
+    },
+    "native/omr_engine/omr-mobile-engine/cpp/include/omr/NormalizeEngine.hpp": {
+      "originalSha256": "d80356492b8c638a4b3ed6fafecb92423acfdb28ed43b7648c41e36d6813fbf2",
+      "optimizedSha256": "1ce65d0b798425da353586a3e801ea55cecb7b0f15d94b4cc0457a8dec93ccda"
+    }
+  }
+}

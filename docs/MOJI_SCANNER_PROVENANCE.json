@@ -1,0 +1,126 @@
+{
+  "source": "/home/you/Projects/موجی اسکن",
+  "version": "3.0.2",
+  "files": [
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/CaptureGate.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/CaptureGate.kt",
+      "sha256": "020d04e350c2beb42ac88e2ca3fc14d6050d351f2a9f80214fe1e166b3278cf5"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/CornerOrder.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/CornerOrder.kt",
+      "sha256": "2c0291d00a8b6e185dfb1e26557bae74e200dfe3aa75326372af48991b248a04"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/CropGeometry.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/CropGeometry.kt",
+      "sha256": "63e3df99666cda629ccab07f909bcdb1cf36958e0efdd9f0ba911e4f136051af"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/LearnedGeometry.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/LearnedGeometry.kt",
+      "sha256": "bce64ca0f65aa64b573a3f85ea378b4a741eaf9b88155a5ce9bf73db47a76626"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/LiveScanner.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/LiveScanner.kt",
+      "sha256": "948767872dbdb2e673a043bc9a4def0117c6953fecbf61371a1f3cd6bae7b6aa"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/LocalModels.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/LocalModels.kt",
+      "sha256": "1d94656ace2c9678b1bd4ba5b50bf3522b0eb04734aa552c3b85a6595c32d46e"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/PageTracker.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/PageTracker.kt",
+      "sha256": "5f0ac85227fad5ee365b183740c9c65d81ed8adb1f370524d6a358b12e68285e"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/PaperframeEngine.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/PaperframeEngine.kt",
+      "sha256": "2f3486282265356645d0cf201973fee761d515ebe72b98b0b1d457ba2f3d0789"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/RenderGeometryCache.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/RenderGeometryCache.kt",
+      "sha256": "7317d3f52ce18e5ec6cd66e1ec9611e558465ab34a05179d2316768dd430be20"
+    },
+    {
+      "source": "app/src/main/java/dev/paperframe/paperframe/RenderMemoCache.kt",
+      "destination": "app/src/main/kotlin/dev/paperframe/paperframe/RenderMemoCache.kt",
+      "sha256": "46f703b3bd7d32ee6430d6800c1266bf865f58cd08d82ad34310a395e1f871a5"
+    },
+    {
+      "source": "app/src/main/cpp/inference.cpp",
+      "destination": "app/src/main/cpp/inference.cpp",
+      "sha256": "a62faa9ca285a7f0d6134509940f4e4dfe007724631e0a65b2923d1d40543b7a"
+    },
+    {
+      "source": "app/src/main/cpp/MNN-LICENSE.txt",
+      "destination": "app/src/main/cpp/MNN-LICENSE.txt",
+      "sha256": "a830d59c4f98d110e0540d0581efada06192ba6e798434307d1794b07a290302"
+    },
+    {
+      "source": "app/src/main/jniLibs/arm64-v8a/libMNN.so",
+      "destination": "app/src/main/jniLibs/arm64-v8a/libMNN.so",
+      "sha256": "c91fb9e65ef45477406583cf374978c61713318893f6af473aecdafed4c17f60"
+    },
+    {
+      "source": "app/src/main/assets/scanner/border.mnn",
+      "destination": "app/src/main/assets/scanner/border.mnn",
+      "sha256": "b9bde1e5d346f063018443bd3d54fca8b3316ef53e114cd5f8e13564590489e8"
+    },
+    {
+      "source": "app/src/main/assets/scanner/dewarp.mnn",
+      "destination": "app/src/main/assets/scanner/dewarp.mnn",
+      "sha256": "9d1f68861920f0c0de9f6aa9ac55214276eec0d1856016d8ae741deff2992194"
+    },
+    {
+      "source": "app/src/main/assets/scanner/MNN-LICENSE.txt",
+      "destination": "app/src/main/assets/scanner/MNN-LICENSE.txt",
+      "sha256": "a830d59c4f98d110e0540d0581efada06192ba6e798434307d1794b07a290302"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/ErrorCode.hpp",
+      "destination": "app/src/main/cpp/include/MNN/ErrorCode.hpp",
+      "sha256": "de7d2290e4e2f024ae51707298c30721a283367eb90a7abac113d27248d56dd0"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/HalideRuntime.h",
+      "destination": "app/src/main/cpp/include/MNN/HalideRuntime.h",
+      "sha256": "f1d35170fa3fc1c7433ca1d18ca5d016ad230f26a0ecfba91b9a7ef9a49f7a37"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/Interpreter.hpp",
+      "destination": "app/src/main/cpp/include/MNN/Interpreter.hpp",
+      "sha256": "0c367286c5906572218ddfa6426007ca748cbf5433f6cd7c7c71ae3300b1f986"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/MNNDefine.h",
+      "destination": "app/src/main/cpp/include/MNN/MNNDefine.h",
+      "sha256": "481f2ff7a4dd29ce779384b8f5169c8b1aee8ebd8f0a9ca4c2f8444de45f9b6f"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/MNNForwardType.h",
+      "destination": "app/src/main/cpp/include/MNN/MNNForwardType.h",
+      "sha256": "b9c670a78f3ec42c81328429004fdd6c3ff1a172a52373dd09945a678e5ea167"
+    },
+    {
+      "source": "app/src/main/cpp/include/MNN/Tensor.hpp",
+      "destination": "app/src/main/cpp/include/MNN/Tensor.hpp",
+      "sha256": "6f28b4d0338c6760582ed8d5632fa0c3691bdfacc421753b6d86407466a7bf5c"
+    },
+    {
+      "source": "docs/PAPERFRAME_PROVENANCE.md",
+      "destination": "docs/moji/PAPERFRAME_PROVENANCE.md",
+      "sha256": "187285ba82e2ed3f848546721845d905c37f6d593e88a7bfbc2b14fe81256a0d"
+    },
+    {
+      "source": "docs/paperframe-source-audit.json",
+      "destination": "docs/moji/paperframe-source-audit.json",
+      "sha256": "b94ec9bd53eb05201ae8c869f911d043c0556cc118b23b71d9bb33331ff311cb"
+    }
+  ]
+}

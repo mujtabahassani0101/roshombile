@@ -1,0 +1,466 @@
+{
+  "version": 2,
+  "templateId": "young-scientist-omr-a4-120-v5",
+  "description": "Young Scientist 120-question OMR sheet with 43-dot side rails, six horizontal student-code rows, and a required QR code.",
+  "coordinateSystem": {
+    "origin": "top-left",
+    "unit": "px",
+    "referenceRender": {
+      "dpi": 200,
+      "width": 1653,
+      "height": 2339
+    },
+    "pdfPage": {
+      "size": "A4",
+      "widthPt": 595,
+      "heightPt": 842
+    }
+  },
+  "liveDetection": {
+    "registration": {
+      "type": "side_dot_rails",
+      "dotShape": "filled_black_circle",
+      "leftRailX": 68.0,
+      "rightRailX": 1585.0,
+      "dotRadius": 15.0,
+      "rowY": [
+        104.167,
+        145.833,
+        187.5,
+        229.167,
+        270.833,
+        312.5,
+        354.167,
+        551.389,
+        590.278,
+        629.167,
+        668.056,
+        706.944,
+        745.833,
+        896.0,
+        937.5,
+        979.0,
+        1021.0,
+        1062.5,
+        1104.0,
+        1146.0,
+        1187.5,
+        1229.0,
+        1271.0,
+        1312.5,
+        1354.0,
+        1396.0,
+        1437.5,
+        1479.0,
+        1521.0,
+        1562.5,
+        1604.0,
+        1646.0,
+        1687.5,
+        1729.0,
+        1771.0,
+        1812.5,
+        1854.0,
+        1896.0,
+        1937.5,
+        1979.0,
+        2021.0,
+        2062.5,
+        2104.0
+      ],
+      "expectedDotsPerSide": 43,
+      "minDotsPerSideForLive": 16,
+      "minDotsPerSideForNormalize": 28
+    },
+    "regions": {
+      "ignoreTopHeader": {
+        "x": 120,
+        "y": 60,
+        "width": 1350,
+        "height": 320
+      },
+      "studentCode": {
+        "x": 566,
+        "y": 514,
+        "width": 598,
+        "height": 267
+      },
+      "answers": {
+        "x": 308,
+        "y": 861,
+        "width": 1039,
+        "height": 1278
+      },
+      "footerIgnore": {
+        "x": 0,
+        "y": 2233,
+        "width": 1653,
+        "height": 62
+      },
+      "examQr": {
+        "x": 194,
+        "y": 92,
+        "width": 248,
+        "height": 248
+      }
+    },
+    "thresholds": {
+      "minBrightness": 0.28,
+      "maxBrightness": 0.92,
+      "minSharpness": 0.42,
+      "minCoverage": 0.58,
+      "maxCoverage": 0.94,
+      "minRailScore": 0.65,
+      "minAngleScore": 0.72,
+      "stableFrameCount": 6,
+      "uiUpdateEveryMs": 120
+    }
+  },
+  "studentCode": {
+    "type": "digit_grid",
+    "title": "کد دانش‌آموز",
+    "columns": 6,
+    "layout": "rows_horizontal",
+    "positionReadOrder": "top_to_bottom",
+    "digitOptionsLeftToRight": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "xByDigitLeftToRight": [
+      626.389,
+      670.833,
+      715.278,
+      759.722,
+      804.167,
+      848.611,
+      893.056,
+      937.5,
+      981.944,
+      1026.389
+    ],
+    "yByPositionTopToBottom": [
+      551.389,
+      590.278,
+      629.167,
+      668.056,
+      706.944,
+      745.833
+    ],
+    "bubbleRadius": 15,
+    "finalReadThresholds": {
+      "markedFillRatio": 0.60,
+      "blankMaxFillRatio": 0.42,
+      "multiMarkMinRatio": 0.60,
+      "ambiguousDelta": 0.18
+    },
+    "bbox": {
+      "x": 566,
+      "y": 514,
+      "width": 598,
+      "height": 267
+    },
+    "notes": [
+      "The six-digit student code is read from the top visual row to the bottom row; digit choices run from 9 at the left to 0 at the right."
+    ]
+  },
+  "answers": {
+    "type": "four_option_blocks",
+    "questionCount": 120,
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "optionDisplayOrderByX": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "blocks": [
+      {
+        "id": "q091_120",
+        "questionStart": 91,
+        "questionCount": 30,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 468.0,
+          "2": 426.0,
+          "3": 385.0,
+          "4": 343.0
+        },
+        "yByRow": [
+          896.0,
+          937.5,
+          979.0,
+          1021.0,
+          1062.5,
+          1104.0,
+          1146.0,
+          1187.5,
+          1229.0,
+          1271.0,
+          1312.5,
+          1354.0,
+          1396.0,
+          1437.5,
+          1479.0,
+          1521.0,
+          1562.5,
+          1604.0,
+          1646.0,
+          1687.5,
+          1729.0,
+          1771.0,
+          1812.5,
+          1854.0,
+          1896.0,
+          1937.5,
+          1979.0,
+          2021.0,
+          2062.5,
+          2104.0
+        ],
+        "bubbleRadius": 15,
+        "bbox": {
+          "x": 308,
+          "y": 861,
+          "width": 239,
+          "height": 1278
+        }
+      },
+      {
+        "id": "q061_090",
+        "questionStart": 61,
+        "questionCount": 30,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 735.0,
+          "2": 693.0,
+          "3": 651.0,
+          "4": 610.0
+        },
+        "yByRow": [
+          896.0,
+          937.5,
+          979.0,
+          1021.0,
+          1062.5,
+          1104.0,
+          1146.0,
+          1187.5,
+          1229.0,
+          1271.0,
+          1312.5,
+          1354.0,
+          1396.0,
+          1437.5,
+          1479.0,
+          1521.0,
+          1562.5,
+          1604.0,
+          1646.0,
+          1687.5,
+          1729.0,
+          1771.0,
+          1812.5,
+          1854.0,
+          1896.0,
+          1937.5,
+          1979.0,
+          2021.0,
+          2062.5,
+          2104.0
+        ],
+        "bubbleRadius": 15,
+        "bbox": {
+          "x": 575,
+          "y": 861,
+          "width": 239,
+          "height": 1278
+        }
+      },
+      {
+        "id": "q031_060",
+        "questionStart": 31,
+        "questionCount": 30,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 1001.0,
+          "2": 960.0,
+          "3": 918.0,
+          "4": 876.0
+        },
+        "yByRow": [
+          896.0,
+          937.5,
+          979.0,
+          1021.0,
+          1062.5,
+          1104.0,
+          1146.0,
+          1187.5,
+          1229.0,
+          1271.0,
+          1312.5,
+          1354.0,
+          1396.0,
+          1437.5,
+          1479.0,
+          1521.0,
+          1562.5,
+          1604.0,
+          1646.0,
+          1687.5,
+          1729.0,
+          1771.0,
+          1812.5,
+          1854.0,
+          1896.0,
+          1937.5,
+          1979.0,
+          2021.0,
+          2062.5,
+          2104.0
+        ],
+        "bubbleRadius": 15,
+        "bbox": {
+          "x": 841,
+          "y": 861,
+          "width": 240,
+          "height": 1278
+        }
+      },
+      {
+        "id": "q001_030",
+        "questionStart": 1,
+        "questionCount": 30,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 1268.0,
+          "2": 1226.0,
+          "3": 1185.0,
+          "4": 1143.0
+        },
+        "yByRow": [
+          896.0,
+          937.5,
+          979.0,
+          1021.0,
+          1062.5,
+          1104.0,
+          1146.0,
+          1187.5,
+          1229.0,
+          1271.0,
+          1312.5,
+          1354.0,
+          1396.0,
+          1437.5,
+          1479.0,
+          1521.0,
+          1562.5,
+          1604.0,
+          1646.0,
+          1687.5,
+          1729.0,
+          1771.0,
+          1812.5,
+          1854.0,
+          1896.0,
+          1937.5,
+          1979.0,
+          2021.0,
+          2062.5,
+          2104.0
+        ],
+        "bubbleRadius": 15,
+        "bbox": {
+          "x": 1108,
+          "y": 861,
+          "width": 239,
+          "height": 1278
+        }
+      }
+    ],
+    "finalReadThresholds": {
+      "markedFillRatio": 0.38,
+      "blankMaxFillRatio": 0.35,
+      "multiMarkMinRatio": 0.40,
+      "ambiguousDelta": 0.14
+    }
+  },
+  "debug": {
+    "extractedFrom": "پاسخنامه (2) (2).pdf",
+    "renderedImageSize": [
+      1653,
+      2339
+    ],
+    "detectedMagentaBubbles": 540,
+    "detectedAnswerBubbles": 480,
+    "detectedStudentCodeBubbles": 60,
+    "detectedSideDotsTotal": 86,
+    "decodedQrPayload": "Hello :)",
+    "sourcePdfSha256": "119c5745ffd13819dd9b52d4dd4db0e801f50d293ffbb1b36d4864a2fffd9d2f"
+  },
+  "examCode": {
+    "box": {
+      "x": 164,
+      "y": 66,
+      "width": 495,
+      "height": 298
+    },
+    "qrCode": {
+      "enabled": true,
+      "required": true,
+      "placement": "inside_exam_code_box",
+      "preferredFormats": [
+        "QR_CODE"
+      ],
+      "roi": {
+        "x": 194,
+        "y": 92,
+        "width": 248,
+        "height": 248
+      },
+      "fallbackRois": [],
+      "expectedPayloadRegex": "^.{2,80}$",
+      "quietZoneRequired": true,
+      "minModulePxAfterWarp": 3,
+      "decodeAfterPerspectiveCorrection": true
+    }
+  }
+}

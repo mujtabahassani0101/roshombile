@@ -1,0 +1,757 @@
+{
+  "version": 2,
+  "templateId": "yse-omr-a5-t1-100q-v2",
+  "description": "Current A5 T1 printed answer sheet, measured from the supplied October 20, 2026 PDF. Previous print geometries are retained as explicit legacy variants.",
+  "sheetType": {
+    "code": "T1",
+    "questionCount": 100
+  },
+  "coordinateSystem": {
+    "origin": "top-left",
+    "unit": "px",
+    "referenceRender": {
+      "dpi": 300,
+      "width": 1750,
+      "height": 2480
+    },
+    "pdfPage": {
+      "size": "A5",
+      "widthPt": 420,
+      "heightPt": 595
+    }
+  },
+  "liveDetection": {
+    "registration": {
+      "type": "side_dot_rails",
+      "dotShape": "filled_black_circle",
+      "leftRailX": 96.26971,
+      "rightRailX": 1650.498935,
+      "dotRadius": 20.853144,
+      "rowY": [
+        177.924148,
+        248.181465,
+        318.055019,
+        388.962865,
+        606.057031,
+        676.314094,
+        746.187902,
+        817.095748,
+        886.969815,
+        958.52794,
+        1028.401748,
+        1098.27556,
+        1168.149623,
+        1235.179956,
+        1305.053515,
+        1374.927323,
+        1444.801131,
+        1513.26681,
+        1583.140619,
+        1653.014431,
+        1722.88824,
+        1789.918573,
+        1859.792385,
+        1929.666448,
+        1999.540002,
+        2069.441535,
+        2137.90721,
+        2207.780769,
+        2277.65534
+      ],
+      "expectedDotsPerSide": 29,
+      "minDotsPerSideForLive": 10,
+      "minDotsPerSideForNormalize": 18
+    },
+    "regions": {
+      "ignoreTopHeader": {
+        "x": 120,
+        "y": 35,
+        "width": 1510,
+        "height": 500
+      },
+      "answers": {
+        "x": 227.370719,
+        "y": 558.057031,
+        "width": 1273.830553,
+        "height": 1754.535214
+      },
+      "footerIgnore": {
+        "x": 0,
+        "y": 2312.592245,
+        "width": 1750,
+        "height": 167.407755
+      },
+      "examQr": {
+        "x": 390,
+        "y": 140,
+        "width": 300,
+        "height": 325
+      }
+    },
+    "thresholds": {
+      "minBrightness": 0.28,
+      "maxBrightness": 0.92,
+      "minSharpness": 0.42,
+      "minCoverage": 0.58,
+      "maxCoverage": 0.94,
+      "minRailScore": 0.65,
+      "minAngleScore": 0.72,
+      "stableFrameCount": 6,
+      "uiUpdateEveryMs": 120
+    }
+  },
+  "answers": {
+    "type": "four_option_blocks",
+    "questionCount": 100,
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "optionDisplayOrderByX": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "blocks": [
+      {
+        "id": "q076_100",
+        "questionStart": 76,
+        "questionCount": 25,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "4": 258.650435,
+          "3": 315.522485,
+          "2": 372.39479,
+          "1": 429.267094
+        },
+        "yByRow": [
+          606.057031,
+          676.314094,
+          746.187902,
+          817.095748,
+          886.969815,
+          958.52794,
+          1028.401748,
+          1098.27556,
+          1168.149623,
+          1235.179956,
+          1305.053515,
+          1374.927323,
+          1444.801131,
+          1513.26681,
+          1583.140619,
+          1653.014431,
+          1722.88824,
+          1789.918573,
+          1859.792385,
+          1929.666448,
+          1999.540002,
+          2069.441535,
+          2137.90721,
+          2207.780769,
+          2277.65534
+        ],
+        "bubbleRadius": 20.853144,
+        "bbox": {
+          "x": 227.370719,
+          "y": 571.120127,
+          "width": 264.455807,
+          "height": 1741.472118
+        }
+      },
+      {
+        "id": "q051_075",
+        "questionStart": 51,
+        "questionCount": 25,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "4": 595.108769,
+          "3": 651.980819,
+          "2": 708.853123,
+          "1": 765.725427
+        },
+        "yByRow": [
+          606.057031,
+          676.314094,
+          746.187902,
+          817.095748,
+          886.969815,
+          958.52794,
+          1028.401748,
+          1098.27556,
+          1168.149623,
+          1235.179956,
+          1305.053515,
+          1374.927323,
+          1444.801131,
+          1513.26681,
+          1583.140619,
+          1653.014431,
+          1722.88824,
+          1789.918573,
+          1859.792385,
+          1929.666448,
+          1999.540002,
+          2069.441535,
+          2137.90721,
+          2207.780769,
+          2277.65534
+        ],
+        "bubbleRadius": 20.853144,
+        "bbox": {
+          "x": 563.829053,
+          "y": 571.120127,
+          "width": 264.455806,
+          "height": 1741.472118
+        }
+      },
+      {
+        "id": "q026_050",
+        "questionStart": 26,
+        "questionCount": 25,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "4": 931.567102,
+          "3": 988.439152,
+          "2": 1045.311456,
+          "1": 1102.18376
+        },
+        "yByRow": [
+          606.057031,
+          676.314094,
+          746.187902,
+          817.095748,
+          886.969815,
+          958.52794,
+          1028.401748,
+          1098.27556,
+          1168.149623,
+          1235.179956,
+          1305.053515,
+          1374.927323,
+          1444.801131,
+          1513.26681,
+          1583.140619,
+          1653.014431,
+          1722.88824,
+          1789.918573,
+          1859.792385,
+          1929.666448,
+          1999.540002,
+          2069.441535,
+          2137.90721,
+          2207.780769,
+          2277.65534
+        ],
+        "bubbleRadius": 20.853144,
+        "bbox": {
+          "x": 900.287386,
+          "y": 571.120127,
+          "width": 264.455806,
+          "height": 1741.472118
+        }
+      },
+      {
+        "id": "q001_025",
+        "questionStart": 1,
+        "questionCount": 25,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "4": 1268.025435,
+          "3": 1324.897485,
+          "2": 1381.76979,
+          "1": 1438.64184
+        },
+        "yByRow": [
+          606.057031,
+          676.314094,
+          746.187902,
+          817.095748,
+          886.969815,
+          958.52794,
+          1028.401748,
+          1098.27556,
+          1168.149623,
+          1235.179956,
+          1305.053515,
+          1374.927323,
+          1444.801131,
+          1513.26681,
+          1583.140619,
+          1653.014431,
+          1722.88824,
+          1789.918573,
+          1859.792385,
+          1929.666448,
+          1999.540002,
+          2069.441535,
+          2137.90721,
+          2207.780769,
+          2277.65534
+        ],
+        "bubbleRadius": 20.853144,
+        "bbox": {
+          "x": 1236.745719,
+          "y": 571.120127,
+          "width": 264.455553,
+          "height": 1741.472118
+        }
+      }
+    ],
+    "finalReadThresholds": {
+      "markedFillRatio": 0.38,
+      "blankMaxFillRatio": 0.35,
+      "multiMarkMinRatio": 0.4,
+      "ambiguousDelta": 0.14
+    }
+  },
+  "examCode": {
+    "box": {
+      "x": 370,
+      "y": 120,
+      "width": 350,
+      "height": 380
+    },
+    "qrCode": {
+      "enabled": true,
+      "required": true,
+      "placement": "inside_combined_header_panel",
+      "preferredFormats": [
+        "QR_CODE"
+      ],
+      "roi": {
+        "x": 390,
+        "y": 140,
+        "width": 300,
+        "height": 325
+      },
+      "fallbackRois": [],
+      "expectedPayloadRegex": "^T[123]:[0-9]{1,32}:(S2[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{18}|[A-Za-z0-9]{8})$",
+      "quietZoneRequired": true,
+      "minModulePxAfterWarp": 3,
+      "decodeAfterPerspectiveCorrection": true
+    }
+  },
+  "debug": {
+    "extractedFrom": "100 · دور اول مسابقه · هدر جدید (1).pdf",
+    "extractionMethod": "PDF vector circle centers and independently paired timing-rail rows at 300 DPI",
+    "renderedImageSize": [
+      1750,
+      2480
+    ],
+    "detectedAnswerBubbles": 400,
+    "completeCirclePathsMeasured": 224,
+    "detectedStudentCodeBubbles": 0,
+    "detectedSideDotsTotal": 58,
+    "sourcePdfSha256": "708e2237e44ade075480d3665ef57e2a5d9173844d56e4f669f483e5b59dc506",
+    "sampleQrPrefix": "S2",
+    "sampleQrMatchesProductionContract": false
+  },
+  "geometryId": "t1-header-20261020",
+  "geometryVariants": [
+    {
+      "version": 2,
+      "templateId": "yse-omr-a5-t1-100q-v2",
+      "description": "Production A5 T1 answer sheet with 100 questions, four 25-question blocks, a QR/header panel, no student-code bubble grid, and 29-dot side rails.",
+      "sheetType": {
+        "code": "T1",
+        "questionCount": 100
+      },
+      "coordinateSystem": {
+        "origin": "top-left",
+        "unit": "px",
+        "referenceRender": {
+          "dpi": 300,
+          "width": 1750,
+          "height": 2480
+        },
+        "pdfPage": {
+          "size": "A5",
+          "widthPt": 420,
+          "heightPt": 595
+        }
+      },
+      "liveDetection": {
+        "registration": {
+          "type": "side_dot_rails",
+          "dotShape": "filled_black_circle",
+          "leftRailX": 55.284,
+          "rightRailX": 1691.315,
+          "dotRadius": 21.95,
+          "rowY": [
+            209.438,
+            283.393,
+            356.944,
+            431.584,
+            611.858,
+            685.813,
+            759.364,
+            834.004,
+            907.556,
+            982.88,
+            1056.432,
+            1129.983,
+            1203.534,
+            1274.093,
+            1347.644,
+            1421.195,
+            1494.747,
+            1566.816,
+            1640.367,
+            1713.919,
+            1787.47,
+            1858.028,
+            1931.58,
+            2005.131,
+            2078.682,
+            2152.263,
+            2224.332,
+            2297.883,
+            2371.435
+          ],
+          "expectedDotsPerSide": 29,
+          "minDotsPerSideForLive": 10,
+          "minDotsPerSideForNormalize": 18
+        },
+        "regions": {
+          "ignoreTopHeader": {
+            "x": 120,
+            "y": 35,
+            "width": 1510,
+            "height": 500
+          },
+          "answers": {
+            "x": 179.167,
+            "y": 566.667,
+            "width": 1379.167,
+            "height": 1845.833
+          },
+          "footerIgnore": {
+            "x": 0,
+            "y": 2412.5,
+            "width": 1750,
+            "height": 67.5
+          },
+          "examQr": {
+            "x": 395.833,
+            "y": 176.455,
+            "width": 261.765,
+            "height": 261.609
+          }
+        },
+        "thresholds": {
+          "minBrightness": 0.28,
+          "maxBrightness": 0.92,
+          "minSharpness": 0.42,
+          "minCoverage": 0.58,
+          "maxCoverage": 0.94,
+          "minRailScore": 0.65,
+          "minAngleScore": 0.72,
+          "stableFrameCount": 6,
+          "uiUpdateEveryMs": 120
+        }
+      },
+      "answers": {
+        "type": "four_option_blocks",
+        "questionCount": 100,
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "optionDisplayOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "blocks": [
+          {
+            "id": "q076_100",
+            "questionStart": 76,
+            "questionCount": 25,
+            "questionNumberSide": "right",
+            "optionOrderByX": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "xByOption": {
+              "1": 405.808,
+              "2": 345.942,
+              "3": 286.075,
+              "4": 226.213
+            },
+            "yByRow": [
+              611.858,
+              685.813,
+              759.364,
+              834.004,
+              907.556,
+              982.88,
+              1056.432,
+              1129.983,
+              1203.534,
+              1274.093,
+              1347.644,
+              1421.195,
+              1494.747,
+              1566.816,
+              1640.367,
+              1713.919,
+              1787.47,
+              1858.028,
+              1931.58,
+              2005.131,
+              2078.682,
+              2152.263,
+              2224.332,
+              2297.883,
+              2371.435
+            ],
+            "bubbleRadius": 21.95,
+            "bbox": {
+              "x": 179.167,
+              "y": 566.667,
+              "width": 316.667,
+              "height": 1845.833
+            }
+          },
+          {
+            "id": "q051_075",
+            "questionStart": 51,
+            "questionCount": 25,
+            "questionNumberSide": "right",
+            "optionOrderByX": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "xByOption": {
+              "1": 759.975,
+              "2": 700.108,
+              "3": 640.242,
+              "4": 580.379
+            },
+            "yByRow": [
+              611.858,
+              685.813,
+              759.364,
+              834.004,
+              907.556,
+              982.88,
+              1056.432,
+              1129.983,
+              1203.534,
+              1274.093,
+              1347.644,
+              1421.195,
+              1494.747,
+              1566.816,
+              1640.367,
+              1713.919,
+              1787.47,
+              1858.028,
+              1931.58,
+              2005.131,
+              2078.682,
+              2152.263,
+              2224.332,
+              2297.883,
+              2371.435
+            ],
+            "bubbleRadius": 21.95,
+            "bbox": {
+              "x": 533.333,
+              "y": 566.667,
+              "width": 316.667,
+              "height": 1845.833
+            }
+          },
+          {
+            "id": "q026_050",
+            "questionStart": 26,
+            "questionCount": 25,
+            "questionNumberSide": "right",
+            "optionOrderByX": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "xByOption": {
+              "1": 1114.142,
+              "2": 1054.275,
+              "3": 994.408,
+              "4": 934.546
+            },
+            "yByRow": [
+              611.858,
+              685.813,
+              759.364,
+              834.004,
+              907.556,
+              982.88,
+              1056.432,
+              1129.983,
+              1203.534,
+              1274.093,
+              1347.644,
+              1421.195,
+              1494.747,
+              1566.816,
+              1640.367,
+              1713.919,
+              1787.47,
+              1858.028,
+              1931.58,
+              2005.131,
+              2078.682,
+              2152.263,
+              2224.332,
+              2297.883,
+              2371.435
+            ],
+            "bubbleRadius": 21.95,
+            "bbox": {
+              "x": 887.5,
+              "y": 566.667,
+              "width": 316.667,
+              "height": 1845.833
+            }
+          },
+          {
+            "id": "q001_025",
+            "questionStart": 1,
+            "questionCount": 25,
+            "questionNumberSide": "right",
+            "optionOrderByX": [
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "xByOption": {
+              "1": 1468.308,
+              "2": 1408.442,
+              "3": 1348.575,
+              "4": 1288.713
+            },
+            "yByRow": [
+              611.858,
+              685.813,
+              759.364,
+              834.004,
+              907.556,
+              982.88,
+              1056.432,
+              1129.983,
+              1203.534,
+              1274.093,
+              1347.644,
+              1421.195,
+              1494.747,
+              1566.816,
+              1640.367,
+              1713.919,
+              1787.47,
+              1858.028,
+              1931.58,
+              2005.131,
+              2078.682,
+              2152.263,
+              2224.332,
+              2297.883,
+              2371.435
+            ],
+            "bubbleRadius": 21.95,
+            "bbox": {
+              "x": 1241.667,
+              "y": 566.667,
+              "width": 316.667,
+              "height": 1845.833
+            }
+          }
+        ],
+        "finalReadThresholds": {
+          "markedFillRatio": 0.38,
+          "blankMaxFillRatio": 0.35,
+          "multiMarkMinRatio": 0.4,
+          "ambiguousDelta": 0.14
+        }
+      },
+      "examCode": {
+        "box": {
+          "x": 370.833,
+          "y": 158.333,
+          "width": 300,
+          "height": 341.667
+        },
+        "qrCode": {
+          "enabled": true,
+          "required": true,
+          "placement": "inside_combined_header_panel",
+          "preferredFormats": [
+            "QR_CODE"
+          ],
+          "roi": {
+            "x": 395.833,
+            "y": 176.455,
+            "width": 261.765,
+            "height": 261.609
+          },
+          "fallbackRois": [],
+          "expectedPayloadRegex": "^T[123]:[0-9]{1,32}:(S2[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{18}|[A-Za-z0-9]{8})$",
+          "quietZoneRequired": true,
+          "minModulePxAfterWarp": 3,
+          "decodeAfterPerspectiveCorrection": true
+        }
+      },
+      "debug": {
+        "extractedFrom": "A5 - 1 (Copy 2) (1).pdf",
+        "extractionMethod": "PDF vector geometry at 300 DPI reference scale",
+        "renderedImageSize": [
+          1750,
+          2480
+        ],
+        "detectedAnswerBubbles": 400,
+        "detectedStudentCodeBubbles": 0,
+        "detectedSideDotsTotal": 58,
+        "decodedSampleQrPayload": "S2XMHKMQ7J33Y0NDB1XN",
+        "sampleQrMatchesProductionT1Contract": false,
+        "sourcePdfSha256": "50dadda000a5012bba3c3bc4eec1b86f70fc919426f5afb68561d8af230c0fac"
+      },
+      "geometryId": "t1-legacy-header"
+    }
+  ]
+}

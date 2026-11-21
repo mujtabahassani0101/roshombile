@@ -1,0 +1,5 @@
+/build/
+/build-*/
+/.cxx/
+/.DS_Store
+

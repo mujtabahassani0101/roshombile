@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "templateId": "yse-omr-a5-t3-40q-v1",
+  "description": "Supplied November 15 2026 colored 40-question print. Measured individual vector bubble rows, printed labels, independent QR and square anchors.",
+  "sheetType": {
+    "code": "T3",
+    "questionCount": 40
+  },
+  "coordinateSystem": {
+    "origin": "top-left",
+    "unit": "px",
+    "referenceRender": {
+      "dpi": 300,
+      "width": 1750,
+      "height": 2480
+    },
+    "pdfPage": {
+      "size": "A5",
+      "widthPt": 419.527588,
+      "heightPt": 595.275574
+    }
+  },
+  "liveDetection": {
+    "registration": {
+      "type": "four_square_anchors_and_paired_rows",
+      "dotShape": "filled_black_circle",
+      "leftRailX": 118.243243,
+      "rightRailX": 1631.756757,
+      "dotRadius": 30.724003,
+      "rowY": [
+        714.47619,
+        792.419048,
+        870.361905,
+        948.304762,
+        1026.247619,
+        1104.190476,
+        1182.133333,
+        1260.07619,
+        1338.019048,
+        1415.961905,
+        1493.904762,
+        1571.847619,
+        1649.790476,
+        1727.733333,
+        1805.67619,
+        1883.619048,
+        1961.561905,
+        2039.504762,
+        2117.447619,
+        2195.390476
+      ],
+      "expectedDotsPerSide": 20,
+      "minDotsPerSideForLive": 12,
+      "minDotsPerSideForNormalize": 18
+    },
+    "regions": {
+      "ignoreTopHeader": {
+        "x": 177.364865,
+        "y": 35.428571,
+        "width": 1395.27027,
+        "height": 602.285714
+      },
+      "answers": {
+        "x": 390.202703,
+        "y": 649.52381,
+        "width": 969.594595,
+        "height": 1581.885714
+      },
+      "footerIgnore": {
+        "x": 0.0,
+        "y": 2243.809524,
+        "width": 1750.0,
+        "height": 236.190476
+      },
+      "examQr": {
+        "x": 202.3108906964183,
+        "y": 191.6423333707961,
+        "width": 300.3378171163323,
+        "height": 299.96191310211566
+      }
+    },
+    "thresholds": {
+      "minBrightness": 0.28,
+      "maxBrightness": 0.92,
+      "minSharpness": 0.42,
+      "minCoverage": 0.58,
+      "maxCoverage": 0.94,
+      "minRailScore": 0.65,
+      "minAngleScore": 0.72,
+      "stableFrameCount": 6,
+      "uiUpdateEveryMs": 120
+    }
+  },
+  "answers": {
+    "type": "four_option_blocks",
+    "questionCount": 40,
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "optionDisplayOrderByX": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "blocks": [
+      {
+        "id": "q021_040",
+        "questionStart": 21,
+        "questionCount": 20,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 721.283784,
+          "2": 638.513514,
+          "3": 555.743243,
+          "4": 472.972973
+        },
+        "yByRow": [
+          714.47619,
+          792.419048,
+          870.361905,
+          948.304762,
+          1026.247619,
+          1104.190476,
+          1182.133333,
+          1260.07619,
+          1338.019048,
+          1415.961905,
+          1493.904762,
+          1571.847619,
+          1649.790476,
+          1727.733333,
+          1805.67619,
+          1883.619048,
+          1961.561905,
+          2039.504762,
+          2117.447619,
+          2195.390476
+        ],
+        "bubbleRadius": 30.724003,
+        "bbox": {
+          "x": 390.202703,
+          "y": 678.457143,
+          "width": 449.324324,
+          "height": 1552.952381
+        }
+      },
+      {
+        "id": "q001_020",
+        "questionStart": 1,
+        "questionCount": 20,
+        "questionNumberSide": "right",
+        "optionOrderByX": [
+          "4",
+          "3",
+          "2",
+          "1"
+        ],
+        "xByOption": {
+          "1": 1241.554054,
+          "2": 1158.783784,
+          "3": 1076.013514,
+          "4": 993.243243
+        },
+        "yByRow": [
+          714.47619,
+          792.419048,
+          870.361905,
+          948.304762,
+          1026.247619,
+          1104.190476,
+          1182.133333,
+          1260.07619,
+          1338.019048,
+          1415.961905,
+          1493.904762,
+          1571.847619,
+          1649.790476,
+          1727.733333,
+          1805.67619,
+          1883.619048,
+          1961.561905,
+          2039.504762,
+          2117.447619,
+          2195.390476
+        ],
+        "bubbleRadius": 30.724003,
+        "bbox": {
+          "x": 910.472973,
+          "y": 678.457143,
+          "width": 449.324324,
+          "height": 1552.952381
+        }
+      }
+    ],
+    "finalReadThresholds": {
+      "markedFillRatio": 0.38,
+      "blankMaxFillRatio": 0.35,
+      "multiMarkMinRatio": 0.4,
+      "ambiguousDelta": 0.14
+    }
+  },
+  "examCode": {
+    "box": {
+      "x": 189.7968149832378,
+      "y": 181.22698916586154,
+      "width": 321.1946099716332,
+      "height": 320.7926015119848
+    },
+    "qrCode": {
+      "enabled": true,
+      "required": true,
+      "placement": "separate_header_qr_box",
+      "preferredFormats": [
+        "QR_CODE"
+      ],
+      "roi": {
+        "x": 202.3108906964183,
+        "y": 191.6423333707961,
+        "width": 300.3378171163323,
+        "height": 299.96191310211566
+      },
+      "fallbackRois": [],
+      "expectedPayloadRegex": "^T[123]:[0-9]{1,32}:(S2[0123456789ABCDEFGHJKMNPQRSTVWXYZ]{18}|[A-Za-z0-9]{8})$",
+      "quietZoneRequired": true,
+      "minModulePxAfterWarp": 3,
+      "decodeAfterPerspectiveCorrection": true
+    }
+  },
+  "debug": {
+    "sourcePdfSha256": "24c5e0ec578e42a36a729f5556c25325ab96be490ef21c724140818b2f603fd3",
+    "sourcePage": 3,
+    "extractionMethod": "PDF vector circles and rectangles; independent map saved separately",
+    "sharedGeometryOriginalPrecision": true,
+    "sharedGeometryMaxDifferencePx": 0.001,
+    "detectedAnswerBubbles": 160,
+    "detectedSideDotsTotal": 40,
+    "cornerAnchors": 4
+  },
+  "geometryId": "t3-a5-40q-20261115",
+  "cornerAnchors": [
+    {
+      "x": 70.94568236118003,
+      "y": 70.85717392462671,
+      "width": 82.77026587343288,
+      "height": 82.66667027731948
+    },
+    {
+      "x": 1596.2835011460559,
+      "y": 70.85717392462671,
+      "width": 82.77026587343278,
+      "height": 82.66667027731948
+    },
+    {
+      "x": 70.94568236118003,
+      "y": 2326.476405766315,
+      "width": 82.77026587343288,
+      "height": 82.66666611118164
+    },
+    {
+      "x": 1596.2835011460559,
+      "y": 2326.476405766315,
+      "width": 82.77026587343278,
+      "height": 82.66666611118164
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "templateJsonPath": "omr-live-detector/desktop/templates/lajvard_answer_sheet_120q_qr_v2.json",
+  "outputDirectory": "/tmp/omr-mobile-output",
+  "returnDebugImages": false,
+  "returnNormalizedImages": false,
+  "compactResult": true,
+  "maxInputDimension": 2600,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "imagePath": "/path/to/rendered-new-answer-sheet.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<resources>
+    <style name="StudyLightTheme" parent="RoshdTheme">
+        <item name="android:windowBackground">#F7F4ED</item>
+        <item name="android:colorAccent">#242424</item>
+        <item name="android:colorControlActivated">#242424</item>
+        <item name="android:colorControlNormal">#625F59</item>
+        <item name="android:colorButtonNormal">#171717</item>
+        <item name="android:textColorPrimary">#171717</item>
+        <item name="android:textColorSecondary">#625F59</item>
+        <item name="android:colorBackground">#FFFCF5</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="StudyDarkTheme" parent="RoshdDarkTheme">
+        <item name="android:windowBackground">#191A1D</item>
+        <item name="android:colorAccent">#EAE6DD</item>
+        <item name="android:colorControlActivated">#EAE6DD</item>
+        <item name="android:colorControlNormal">#C5C2B9</item>
+        <item name="android:colorButtonNormal">#171717</item>
+        <item name="android:textColorPrimary">#F7F4ED</item>
+        <item name="android:textColorSecondary">#C5C2B9</item>
+        <item name="android:colorBackground">#282A2E</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

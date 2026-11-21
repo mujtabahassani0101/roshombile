@@ -1,0 +1,10 @@
+{
+  "version": "1.1.58",
+  "reason": "Graded sheet only, not reading: a new mark kind 'missed_correct' draws a green ring (no tick) on the key's option beside a wrong answer, and an optional app-drawn score footer (premultiplied RGBA) is blended below the answer grid. The footer must lie inside the image, must not touch any mark, and its file must be exactly width*height*4 bytes. No OMR, geometry, QR or threshold code changes.",
+  "intentionalChanges": {
+    "native/roshd_adapter/GradedSheetRenderer.cpp": {
+      "originalSha256": "0e49c0a9b1fc2c952189468d7c1d98d795101eb68ef926734a4173577419d919",
+      "optimizedSha256": "635fddf34bdaa37cbaf236443bced48f31d9129829330636e3f2b60f56b00caf"
+    }
+  }
+}

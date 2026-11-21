@@ -1,0 +1,34 @@
+[
+  {
+    "abi": "arm64-v8a",
+    "library": "liblajvard_omr_mobile.so",
+    "bytes": 1231736,
+    "sha256": "9fcbdce264d963eab3e6b3f5d8972bd4100805e35eb37649f12d832e51764de0",
+    "sourceApk": "/home/you/Projects/دانشمند جوان موبایل/app/build/outputs/apk/release/app-release.apk",
+    "sourceApkSha256": "fe0b6e66ce300c01ee094ebd0b1b874ca51d2ef9d12c1fdf7196db200cdef681"
+  },
+  {
+    "abi": "arm64-v8a",
+    "library": "libdocument_scanner.so",
+    "bytes": 92008,
+    "sha256": "2aae5556ef9b78c12bcea6006077e8422b8172df0ce20ec1750cfaa0a1f4c6e2",
+    "sourceApk": "/home/you/Projects/دانشمند جوان موبایل/app/build/outputs/apk/release/app-release.apk",
+    "sourceApkSha256": "fe0b6e66ce300c01ee094ebd0b1b874ca51d2ef9d12c1fdf7196db200cdef681"
+  },
+  {
+    "abi": "x86_64",
+    "library": "liblajvard_omr_mobile.so",
+    "bytes": 2266352,
+    "sha256": "fd84cd7e062f5053928e1d9899b5b68c24e48fe48448f713ff01b9e0145b4d45",
+    "sourceApk": "/home/you/Projects/دانشمند جوان موبایل/app/build/outputs/apk/debug/app-debug.apk",
+    "sourceApkSha256": "27084659577f3238dbbb10ba9ad4bfca48b079eb15dfd868c4070aabd2330001"
+  },
+  {
+    "abi": "x86_64",
+    "library": "libdocument_scanner.so",
+    "bytes": 115128,
+    "sha256": "71b9282b66f38bff25abd5ea96266eea06127d88c5a1757a8f637f03f332f7e5",
+    "sourceApk": "/home/you/Projects/دانشمند جوان موبایل/app/build/outputs/apk/debug/app-debug.apk",
+    "sourceApkSha256": "27084659577f3238dbbb10ba9ad4bfca48b079eb15dfd868c4070aabd2330001"
+  }
+]

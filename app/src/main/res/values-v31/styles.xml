@@ -1,0 +1,21 @@
+<resources>
+    <style name="RoshdTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:colorAccent">@color/roshd_accent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/roshd_canvas</item>
+        <item name="android:windowSplashScreenBackground">@color/roshd_canvas</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/roshd_launch_icon</item>
+    </style>
+    <style name="RoshdDarkTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:colorAccent">#72D7FF</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#111F30</item>
+        <item name="android:windowSplashScreenBackground">#111F30</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/roshd_launch_icon</item>
+    </style>
+</resources>

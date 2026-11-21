@@ -1,0 +1,20 @@
+{
+  "version": "1.1.51",
+  "intentionalChanges": {
+    "native/roshd_adapter/RoshdEngine.cpp": {
+      "originalSha256": "243c2522ee03eacf029d8dc4c96771b59d9db7e6babc460975c7af41653c7008",
+      "optimizedSha256": "9edc14ca8d836367e111b98672eb903afdfda7a1be0501a05204d5dd8b0d1f1b"
+    },
+    "app/src/main/assets/templates/yse_omr_a5_t3_40q_legacy_v1.json": {
+      "originalSha256": null,
+      "optimizedSha256": "2a2259f7f321d73a6de5f760ff1a3a24bf5d7a455b52c15b7a10ef4c9619e616",
+      "copiedFrom": "native/omr_engine/omr-mobile-engine/templates/yse_omr_a5_t3_40q_v1.json"
+    },
+    "app/src/main/assets/templates/yse_omr_a5_t1_100q_legacy_v2.json": {
+      "originalSha256": null,
+      "optimizedSha256": "f3f4f6034cb168769a9a3ba856598ade4f85b48781d31ba7d5529b7ab6de8caa",
+      "copiedFrom": "native/omr_engine/omr-mobile-engine/templates/yse_omr_a5_t1_100q_v2.json"
+    }
+  },
+  "reason": "Package exact legacy small-bubble layouts; independently verify T3 circle geometry and decode provisional QR from original resolution with source-decoder and full registration proof."
+}

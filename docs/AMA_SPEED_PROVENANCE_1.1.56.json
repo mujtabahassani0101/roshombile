@@ -1,0 +1,26 @@
+{
+ "version": "1.1.56",
+ "reason": "Two exact speedups. (1) BubbleGridRefiner's dense fallback ring search, reached for every bubble whose ring is not magenta, classifies each window pixel once with the same predicates and rounds each sample coordinate once per candidate column or row with the same float expressions; scores use the same samples in the same order. (2) Layout probes keep their exact warp inputs and only the selected layout is warped, with the same call on the same pixels. RoshdEngine.cpp only adds the denseRingSearch and deferProbeWarps comparison switches (default on). No geometric acceptance, QR rule, answer threshold or decision changes.",
+ "intentionalChanges": {
+  "native/roshd_adapter/RoshdEngine.cpp": {
+   "originalSha256": "243c2522ee03eacf029d8dc4c96771b59d9db7e6babc460975c7af41653c7008",
+   "optimizedSha256": "f6536fdbfcdc440ac19972d3e34229dc38166f8f2c3a3b6af9c5a503409e9078"
+  },
+  "native/omr_engine/omr-mobile-engine/cpp/src/geometry/BubbleGridRefiner.cpp": {
+   "originalSha256": "7e59a987b5973176facfb313e44f49be16c4e432738dd7eda62842ba36deccb3",
+   "optimizedSha256": "e84452446ea23eafff5a1e07a0fc085b8c9b22bd82d78e8cbd408e62790a1c05"
+  },
+  "native/omr_engine/omr-mobile-engine/cpp/src/geometry/BubbleGridRefiner.hpp": {
+   "originalSha256": "6af5a1deda905532029825c8519649876ace4a9f7d30937e5d664b15f208d926",
+   "optimizedSha256": "ef0f9b721081ac8c53386bbf204656f994b19a3918406bac0366c31919c81579"
+  },
+  "native/omr_engine/omr-mobile-engine/cpp/src/NormalizeEngine.cpp": {
+   "originalSha256": "d63bc61430d5578b59ff475db8aab4b03e9a47923ad1a4c7025d1e9d2590ec85",
+   "optimizedSha256": "ec37921fad32474371486cf643350002448f3e74107269de92416782c3549292"
+  },
+  "native/omr_engine/omr-mobile-engine/cpp/include/omr/NormalizeEngine.hpp": {
+   "originalSha256": "d80356492b8c638a4b3ed6fafecb92423acfdb28ed43b7648c41e36d6813fbf2",
+   "optimizedSha256": "19958e111ebee09607fe8e239dfa86aa8637ceaae0650994dd8e2930f11a321f"
+  }
+ }
+}

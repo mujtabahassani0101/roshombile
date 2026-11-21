@@ -1,0 +1,23 @@
+{
+  "version": "1.1.50",
+  "reason": "Exact per-page QR decode reuse with pixel/ROI/format/regex equality; preserve every distinct decoder retry; a quick source QR proposal precedes fully verified flat-print normalization, with the full Moji/original pipeline retained for all incomplete cases. Fast returns additionally require printed-circle evidence in every answer block; missing, wrong or unclear QR uses the unrestricted retained reader.",
+  "intentionalChanges": {
+    "native/roshd_adapter/RoshdEngine.cpp": {
+      "originalSha256": "243c2522ee03eacf029d8dc4c96771b59d9db7e6babc460975c7af41653c7008",
+      "optimizedSha256": "199733a88729a236fdfdffe417915effa22f988906ddeda23159cda2d4df6eb4"
+    },
+    "native/omr_engine/omr-mobile-engine/cpp/src/BarcodeReader.cpp": {
+      "originalSha256": "9be10616ee24d6a7397347e1fc79c080175d4f88e393dcf7131def6ec28ba0dc",
+      "optimizedSha256": "e85710b8d3c575d714a656d58cfe20fc2124590a35643270afcd5583a8a0119f"
+    },
+    "native/omr_engine/omr-mobile-engine/cpp/include/omr/BarcodeReader.hpp": {
+      "originalSha256": "4bc0c15febb7cee0e47ec442163fb218266721b2594088f06444846f27c53e02",
+      "optimizedSha256": "3c24824912b54931e6716dc9e3211a0d7344d164753396390484ff44d645de63"
+    }
+  },
+  "mojiSourceAndModelsUnchanged": true,
+  "calibrationAndAnswerThresholdsUnchanged": true,
+  "barcodeCacheMaximumBytes": 16777216,
+  "barcodeCacheMaximumEntries": 16,
+  "cacheLifetime": "one page on the calling thread"
+}

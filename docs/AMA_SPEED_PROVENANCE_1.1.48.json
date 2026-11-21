@@ -1,0 +1,15 @@
+{
+  "version": "1.1.48",
+  "reason": "User requested deep scanner speed improvements; replace repeated large-kernel morphology with mathematically equivalent integer prefix/suffix extrema.",
+  "intentionalChanges": {
+    "native/omr_engine/omr-mobile-engine/cpp/src/utils/EllipticalMorphology.cpp": {
+      "originalSha256": "59dcb77fc71bebd63d75c23ab2de2ed0c5193aabaa41dd9393facec5579f7f1b",
+      "optimizedSha256": "10822de7c053ac16adfffbe67ee82797205a8211105963bebe7e43abcd27e8c2"
+    }
+  },
+  "pixelExactAndroidCases": 240,
+  "mojiSourceAndModelsUnchanged": true,
+  "beforeRailDetectionMs": 9070.96,
+  "afterRailDetectionMs": 1958.49,
+  "stageProfileUsesKnownUprightFixture": true
+}

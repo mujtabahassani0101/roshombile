@@ -1,3 +1,11 @@
+# Ama copy — Roshd 1.1.46 (4232), Moji Scan scanner
+
+This complete copy of Roshd Mobile now uses the unmodified Moji Scan 3.0.2 / Paperframe engine for live edge tracking, image import, perspective correction and dense ARM64 dewarping. The original Roshd OMR engines and sheet calibration remain byte-identical. See [integration and verification](docs/AMA_MOJI_SCANNER.md), [full-copy baseline](docs/AMA_COPY_BASELINE.json), and [scanner provenance](docs/MOJI_SCANNER_PROVENANCE.json).
+
+Latest Ama build: 1.1.58 (4244). The graded sheet that is shown, shared and uploaded now prints the score at the bottom and rings the correct option in green beside each wrong answer; see [graded score](docs/GRADED_SCORE_1.1.58.md) (Persian). 1.1.57: notices show province ranks, populations and the classroom section from the current backend payload; see [backend sync](docs/BACKEND_SYNC_1.1.57.md). 1.1.56 cut engine CPU work by 41% on scanned sheets with byte-identical readings; see [1.1.54](docs/AMA_SCAN_SPEED_1.1.54.md), [1.1.55](docs/AMA_SCAN_SPEED_1.1.55.md) and [1.1.56](docs/AMA_SCAN_SPEED_1.1.56.md) (Persian).
+
+---
+
 # Roshd — native Android
 
 Kotlin Android application for [Roshd](https://roshd.azmoonic.com/), version 1.1.38 (4224).

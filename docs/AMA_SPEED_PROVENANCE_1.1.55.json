@@ -1,0 +1,10 @@
+{
+ "version": "1.1.55",
+ "reason": "Try first the print calibration that the complete proof last accepted for the same candidate set. Every candidate keeps the same rail and printed-circle proof and ties keep the original template index; no geometric acceptance, QR rule or answer threshold changes.",
+ "intentionalChanges": {
+  "native/roshd_adapter/RoshdEngine.cpp": {
+   "originalSha256": "243c2522ee03eacf029d8dc4c96771b59d9db7e6babc460975c7af41653c7008",
+   "optimizedSha256": "9f8392852936b7602e43a23e366fb728384ad8ce89695c80f4a2d737f3584987"
+  }
+ }
+}

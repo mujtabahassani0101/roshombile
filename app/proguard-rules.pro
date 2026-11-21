@@ -1,0 +1,2 @@
+-keep class com.haseebullahjan.roshd.platform.OmrNative { *; }
+-keep class dev.paperframe.paperframe.** { *; }

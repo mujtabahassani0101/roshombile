@@ -1,0 +1,19 @@
+# Build and IDE state
+build/
+.gradle/
+.kotlin/
+.cxx/
+app/build/
+app/.cxx/
+.attach_pid*
+local.properties
+*.jks
+*.keystore
+*.p12
+# Generated outputs, APKs and scratch
+output/
+tmp/
+# QA data (photos, private sets); keep written reports only
+qa/**
+!qa/**/
+!qa/**/*.md

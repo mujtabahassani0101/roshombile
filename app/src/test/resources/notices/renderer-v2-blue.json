@@ -1,0 +1,529 @@
+{
+  "color": "blue",
+  "data": {
+    "rendererVersion": "roshd.notice-a4-120.v2",
+    "title": "\u0622\u0632\u0645\u0648\u0646 \u0622\u0632\u0645\u0627\u06CC\u0634\u06CC \u062F\u0627\u0646\u0634\u0645\u0646\u062F \u062C\u0648\u0627\u0646",
+    "studentPublicId": "123456",
+    "firstName": "\u0634\u0627\u06AF\u0631\u062F \u0622\u0632\u0645\u0627\u06CC\u0634\u06CC",
+    "fatherName": "\u067E\u062F\u0631 \u0622\u0632\u0645\u0627\u06CC\u0634\u06CC",
+    "lastName": "\u0646\u0627\u0645 \u062E\u0627\u0646\u0648\u0627\u062F\u06AF\u06CC",
+    "schoolName": "\u0645\u06A9\u062A\u0628 \u0622\u0632\u0645\u0627\u06CC\u0634\u06CC",
+    "grade": 6,
+    "round": 3,
+    "publicationVersion": 1,
+    "examDate": "2026-10-20T06:30:00+00:00",
+    "totalScore": 28,
+    "totalTaraz": 5750,
+    "cohortSize": 30,
+    "advanced": true,
+    "subjects": [
+      {
+        "name": "\u0631\u06CC\u0627\u0636\u06CC",
+        "count": 20,
+        "correct": 14,
+        "incorrect": 4,
+        "blank": 2,
+        "score": 14,
+        "percentage": 70,
+        "taraz": 5900,
+        "meanPercentage": 45,
+        "rawTaraz": 5900,
+        "rank": 4
+      },
+      {
+        "name": "\u062F\u0631\u06CC",
+        "count": 20,
+        "correct": 14,
+        "incorrect": 4,
+        "blank": 2,
+        "score": 14,
+        "percentage": 70,
+        "taraz": 5600,
+        "meanPercentage": 50,
+        "rawTaraz": 5600,
+        "rank": 5
+      }
+    ],
+    "questions": [
+      {
+        "number": 1,
+        "status": "Correct",
+        "correctOption": 0,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 2,
+        "status": "Correct",
+        "correctOption": 21,
+        "selectedOption": 3,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          3
+        ],
+        "corrected": false
+      },
+      {
+        "number": 3,
+        "status": "Correct",
+        "correctOption": 2,
+        "selectedOption": 2,
+        "originalState": "multiple",
+        "originalMarkedOptions": [
+          1,
+          2
+        ],
+        "corrected": true
+      },
+      {
+        "number": 4,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 5,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 6,
+        "status": "Blank",
+        "correctOption": 3,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 7,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 8,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 9,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 10,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 11,
+        "status": "Correct",
+        "correctOption": 0,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 12,
+        "status": "Correct",
+        "correctOption": 21,
+        "selectedOption": 3,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          3
+        ],
+        "corrected": false
+      },
+      {
+        "number": 13,
+        "status": "Correct",
+        "correctOption": 2,
+        "selectedOption": 2,
+        "originalState": "multiple",
+        "originalMarkedOptions": [
+          1,
+          2
+        ],
+        "corrected": true
+      },
+      {
+        "number": 14,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 15,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 16,
+        "status": "Blank",
+        "correctOption": 3,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 17,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 18,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 19,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 20,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 21,
+        "status": "Correct",
+        "correctOption": 0,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 22,
+        "status": "Correct",
+        "correctOption": 21,
+        "selectedOption": 3,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          3
+        ],
+        "corrected": false
+      },
+      {
+        "number": 23,
+        "status": "Correct",
+        "correctOption": 2,
+        "selectedOption": 2,
+        "originalState": "multiple",
+        "originalMarkedOptions": [
+          1,
+          2
+        ],
+        "corrected": true
+      },
+      {
+        "number": 24,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 25,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 26,
+        "status": "Blank",
+        "correctOption": 3,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 27,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 28,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 29,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 30,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 31,
+        "status": "Correct",
+        "correctOption": 0,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 32,
+        "status": "Correct",
+        "correctOption": 21,
+        "selectedOption": 3,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          3
+        ],
+        "corrected": false
+      },
+      {
+        "number": 33,
+        "status": "Correct",
+        "correctOption": 2,
+        "selectedOption": 2,
+        "originalState": "multiple",
+        "originalMarkedOptions": [
+          1,
+          2
+        ],
+        "corrected": true
+      },
+      {
+        "number": 34,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 35,
+        "status": "Incorrect",
+        "correctOption": 1,
+        "selectedOption": 2,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          2
+        ],
+        "corrected": false
+      },
+      {
+        "number": 36,
+        "status": "Blank",
+        "correctOption": 3,
+        "selectedOption": null,
+        "originalState": "blank",
+        "originalMarkedOptions": [],
+        "corrected": false
+      },
+      {
+        "number": 37,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 38,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 39,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      },
+      {
+        "number": 40,
+        "status": "Correct",
+        "correctOption": 1,
+        "selectedOption": 1,
+        "originalState": "selected",
+        "originalMarkedOptions": [
+          1
+        ],
+        "corrected": false
+      }
+    ],
+    "history": [
+      {
+        "round": 1,
+        "totalScore": 22,
+        "totalTaraz": 5200,
+        "percentage": 60,
+        "subjects": [
+          {
+            "subject": "\u0631\u06CC\u0627\u0636\u06CC",
+            "percentage": 55
+          },
+          {
+            "subject": "\u062F\u0631\u06CC",
+            "percentage": 65
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "totalScore": 24,
+        "totalTaraz": 5500,
+        "percentage": 65,
+        "subjects": [
+          {
+            "subject": "\u0631\u06CC\u0627\u0636\u06CC",
+            "percentage": 60
+          },
+          {
+            "subject": "\u062F\u0631\u06CC",
+            "percentage": 70
+          }
+        ]
+      }
+    ],
+    "ranks": {
+      "overall": 4,
+      "school": 2,
+      "class": 1
+    },
+    "groupRanks": [
+      {
+        "name": "\u0633\u0627\u06CC\u0646\u0633\u06CC\u0627\u062A",
+        "overall": 4,
+        "school": 2
+      },
+      {
+        "name": "\u0627\u062C\u062A\u0645\u0627\u0639\u06CC\u0627\u062A",
+        "overall": 5,
+        "school": 2
+      }
+    ]
+  }
+}

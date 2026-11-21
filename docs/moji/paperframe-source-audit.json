@@ -1,0 +1,1993 @@
+{
+  "archive": "Paperframe-1.2.4-source.zip",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 931,
+      "sha256": "7dddef2844495e6d96937b35013ece21bc671cbe694115cba40cd12f8306bbfa"
+    },
+    {
+      "path": ".metadata",
+      "bytes": 968,
+      "sha256": "faffdf2a53d92a634fc218dd7ea62fb4dd4d17058174150f2378dfeb2a3ddd2a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7223,
+      "sha256": "54888d8c4adf1462ca2e0abb93fa9c5014e6d5be60f9c329ad5758fdcb9cc87d"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2225,
+      "sha256": "187285ba82e2ed3f848546721845d905c37f6d593e88a7bfbc2b14fe81256a0d"
+    },
+    {
+      "path": "analysis/DEEP_ENGINE.md",
+      "bytes": 7438,
+      "sha256": "d4b931b6731032696f4375834e021b30a35831e9688b2df77518f5f3117aecdf"
+    },
+    {
+      "path": "analysis/ENGINE_V12.md",
+      "bytes": 10948,
+      "sha256": "67c39dd1893adafbcc4b87395211f1dd9b02c2eb8a0b6586d82b2d4cdc75d26d"
+    },
+    {
+      "path": "analysis/ENGINE_V121.md",
+      "bytes": 8647,
+      "sha256": "83caa12b9742543cbae7c1d5efa03bfe5f347e761d409ad2576699b680f1a97f"
+    },
+    {
+      "path": "analysis/ENGINE_V122.md",
+      "bytes": 15491,
+      "sha256": "223910a7c6c1f1e3c4ce77bc036dbc8c2603b92420281b15d031aba8251439fa"
+    },
+    {
+      "path": "analysis/ENGINE_V123.md",
+      "bytes": 12462,
+      "sha256": "0b591441500eedf91b063a8666eafa24871b2815cefcd70eacdb4b1e7b9cb44c"
+    },
+    {
+      "path": "analysis/ENGINE_V124.md",
+      "bytes": 7810,
+      "sha256": "ac345110e185a89504cf29f17d51f992d6b579d01aedadcef3379ec31381befb"
+    },
+    {
+      "path": "analysis/RECONSTRUCTION.md",
+      "bytes": 5821,
+      "sha256": "2dbfc583a90415a28b1d72a815921035883173283f9433bcecafe90d90a74c1f"
+    },
+    {
+      "path": "analysis/VALIDATION.md",
+      "bytes": 19827,
+      "sha256": "d7e86c8aa6ea421769e99ec6d51db24e158a02fd560b6d64f18a9a3ccfdc5774"
+    },
+    {
+      "path": "analysis/deep/analyze-v12-final.log",
+      "bytes": 60,
+      "sha256": "9a9d35ce9d6fac973a72f078461e18cde1f1c7f2ae7fa7a5916ae87adef4b99a"
+    },
+    {
+      "path": "analysis/deep/analyze-v121.log",
+      "bytes": 60,
+      "sha256": "9a9d35ce9d6fac973a72f078461e18cde1f1c7f2ae7fa7a5916ae87adef4b99a"
+    },
+    {
+      "path": "analysis/deep/analyze-v122.log",
+      "bytes": 60,
+      "sha256": "9a9d35ce9d6fac973a72f078461e18cde1f1c7f2ae7fa7a5916ae87adef4b99a"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/execution.log",
+      "bytes": 653,
+      "sha256": "e42e4b531abe6a59351bed40d7a553fd10a5d5721133552feb5b37a36668b13c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/flat-android.jpg",
+      "bytes": 229667,
+      "sha256": "78046c7c99ebb1ac474129e10df59034e5a4643b7523ca0f7ba47be8e65a393c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/flat-original-fresh.jpg",
+      "bytes": 229667,
+      "sha256": "78046c7c99ebb1ac474129e10df59034e5a4643b7523ca0f7ba47be8e65a393c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/flat-original.log",
+      "bytes": 52,
+      "sha256": "bba64e23cb6490fc6ad6589403d4491dba84149e6fb4ebdbdb877751a22b8e00"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/lowcontrast-android.jpg",
+      "bytes": 254846,
+      "sha256": "108ba83b8ecc95a59a735feccd431a2587ea22c70aa8eeffab1978651b695644"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/lowcontrast-original-fresh.jpg",
+      "bytes": 245261,
+      "sha256": "051cefc9ae8ff03af01f69ada1354c48549dc0d564c0e63ab0661f147b688c00"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/lowcontrast-original.log",
+      "bytes": 52,
+      "sha256": "0541579d99669ba7a7805d4c931dd269e6c7c0703ea0d0beb632d9715061f28f"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/occluded-android.jpg",
+      "bytes": 282716,
+      "sha256": "55edfb077012c00767cbd4925c40d9e729714f4963cfe1c9fb27e2f291c9eaea"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/occluded-original-fresh.jpg",
+      "bytes": 270061,
+      "sha256": "d9533b2076e38c5e6cd2377112bf077c8d711e5ebfd9016258f8b781ffbc8591"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/occluded-original.log",
+      "bytes": 52,
+      "sha256": "72a5995f6d526e5baa45f9a9469ba2461356b92b86f9ce9cbc6b2e0c60ad0b8e"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/perspective-android.jpg",
+      "bytes": 265844,
+      "sha256": "826ddf0cf380d3b80b482a26d9806a567b8678760275b5002f8078d2f70a6b5c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/perspective-original-fresh.jpg",
+      "bytes": 254326,
+      "sha256": "4c79f01da94acdd380889ddb1648eee3584d63a2142b07a2c7910d7acc583239"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/perspective-original.log",
+      "bytes": 52,
+      "sha256": "a902795ed55b1341bab69261b8ef991a716ef0288dbc16fa7f201331445d7d98"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-curved-android.jpg",
+      "bytes": 1041804,
+      "sha256": "3268a0d7c758feb45cdb83c73cdf46faec2529d342fb77da1dffee0244ff2af0"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-curved-original-fresh.jpg",
+      "bytes": 990856,
+      "sha256": "7b971fc1cef0f4bee31e80d12eb70a8f7a06495275078cc1fb3c8262a0bdc102"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-curved-original.log",
+      "bytes": 51,
+      "sha256": "d7aa3cb828c4c08fc3a587347fbcbbfc6ed29da62504f832a481e9515b4e96aa"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-shadow-android.jpg",
+      "bytes": 1176465,
+      "sha256": "7550b8dd739aaf76ea9f8290d67254263d0a5d844e52dac1e074884a79da4192"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-shadow-original-fresh.jpg",
+      "bytes": 1127251,
+      "sha256": "6a4169774a7a40aa1f8bbe7c1ac83c211532539a7ed13bb05f420380f34fb8a7"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/real-shadow-original.log",
+      "bytes": 52,
+      "sha256": "7ee94ec72d816405459f24991671fa17e495638db8b0e395517c3e8f62c8d3d2"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v122/report.json",
+      "bytes": 4749,
+      "sha256": "6b535e8a52c3451060cdee9ea77a94d970ac6a1a3f1ed3a1ce12e20a92f77b25"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/execution.log",
+      "bytes": 653,
+      "sha256": "ca258d76773d601a01855f375b3ebf49c8fd3e9452e79a9a842d6be9ab756f37"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/flat-android.jpg",
+      "bytes": 229667,
+      "sha256": "78046c7c99ebb1ac474129e10df59034e5a4643b7523ca0f7ba47be8e65a393c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/lowcontrast-android.jpg",
+      "bytes": 254846,
+      "sha256": "108ba83b8ecc95a59a735feccd431a2587ea22c70aa8eeffab1978651b695644"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/occluded-android.jpg",
+      "bytes": 282716,
+      "sha256": "55edfb077012c00767cbd4925c40d9e729714f4963cfe1c9fb27e2f291c9eaea"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/perspective-android.jpg",
+      "bytes": 265844,
+      "sha256": "826ddf0cf380d3b80b482a26d9806a567b8678760275b5002f8078d2f70a6b5c"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/real-curved-android.jpg",
+      "bytes": 1041804,
+      "sha256": "3268a0d7c758feb45cdb83c73cdf46faec2529d342fb77da1dffee0244ff2af0"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/real-shadow-android.jpg",
+      "bytes": 1176465,
+      "sha256": "7550b8dd739aaf76ea9f8290d67254263d0a5d844e52dac1e074884a79da4192"
+    },
+    {
+      "path": "analysis/deep/android-geometry-v123-verified/report.json",
+      "bytes": 4403,
+      "sha256": "ecafb13bdfe78f49bdfa0bba2bcc3b50629d6bd909cb5d50ccd7433871785d0f"
+    },
+    {
+      "path": "analysis/deep/android-integration-v122/editor.png",
+      "bytes": 59751,
+      "sha256": "0653d7081acc0c3a3bbef61134b76fc31d640de1d88b5f74d0b1fd8a157abecd"
+    },
+    {
+      "path": "analysis/deep/android-integration-v122/home.png",
+      "bytes": 49342,
+      "sha256": "97c23981ff0677c4691c869a43408d51878e0faf980b03cd540b1332e17a4e2a"
+    },
+    {
+      "path": "analysis/deep/android-integration-v122/phone-proof.json",
+      "bytes": 1350,
+      "sha256": "3cc31486f9b6d594918b2c38060b888febe00725cce96612b35079c5ce56e886"
+    },
+    {
+      "path": "analysis/deep/android-integration-v122/quality-report.json",
+      "bytes": 3322,
+      "sha256": "e8a21a9834173969e05811b995702a7289630e1448b089d282564318e33cfff5"
+    },
+    {
+      "path": "analysis/deep/android-integration-v122/release-exit-info.txt",
+      "bytes": 695,
+      "sha256": "ce7b4d97f80a4ba52588283b012b4ace5c40c3382a84a8d8fb70db64af2b8e10"
+    },
+    {
+      "path": "analysis/deep/android-integration-v123/editor.png",
+      "bytes": 59751,
+      "sha256": "0653d7081acc0c3a3bbef61134b76fc31d640de1d88b5f74d0b1fd8a157abecd"
+    },
+    {
+      "path": "analysis/deep/android-integration-v123/home.png",
+      "bytes": 49342,
+      "sha256": "97c23981ff0677c4691c869a43408d51878e0faf980b03cd540b1332e17a4e2a"
+    },
+    {
+      "path": "analysis/deep/android-integration-v123/phone-proof.json",
+      "bytes": 1728,
+      "sha256": "9f83d3b783f23dff828aad601a1a6e9d21c850704c591184fa8830c81f4126b7"
+    },
+    {
+      "path": "analysis/deep/android-integration-v123/quality-report.json",
+      "bytes": 3323,
+      "sha256": "25c5805a44035c8069c83a43d2a88433265c0dfdd92ba74342c2d2d73434155e"
+    },
+    {
+      "path": "analysis/deep/android-integration-v123/reuse-report.json",
+      "bytes": 1196,
+      "sha256": "02acc45b97ae44caea29473d28dd30b40fa5220cd73c50683eea5695cb4dc51c"
+    },
+    {
+      "path": "analysis/deep/android-integration-v124/editor.png",
+      "bytes": 59751,
+      "sha256": "0653d7081acc0c3a3bbef61134b76fc31d640de1d88b5f74d0b1fd8a157abecd"
+    },
+    {
+      "path": "analysis/deep/android-integration-v124/home.png",
+      "bytes": 49342,
+      "sha256": "97c23981ff0677c4691c869a43408d51878e0faf980b03cd540b1332e17a4e2a"
+    },
+    {
+      "path": "analysis/deep/android-integration-v124/phone-proof.json",
+      "bytes": 1739,
+      "sha256": "1ca2a97fc6829e566d895d238e177f0df67cf665e5b30bdfba002c990f8c497f"
+    },
+    {
+      "path": "analysis/deep/android-integration-v124/quality-report.json",
+      "bytes": 3322,
+      "sha256": "9d1c66e072f46c4269ac0c05aa4a1670e3265ba5b61c24d8c765017e676fbf2b"
+    },
+    {
+      "path": "analysis/deep/android-integration-v124/reuse-report.json",
+      "bytes": 1194,
+      "sha256": "71cb75fbef46c6cf98913c4292f3190cff73bc2e92b1cb6972d139ec2bef2fa6"
+    },
+    {
+      "path": "analysis/deep/border-stress/baseline.json",
+      "bytes": 29320,
+      "sha256": "81f5319d3ba5f7c4b677e5372a128cbf1e6dbae871ea3a58be6fc00a0414f0a0"
+    },
+    {
+      "path": "analysis/deep/border-stress/blank.png",
+      "bytes": 3040,
+      "sha256": "4e0905322977469259138128909eb7c4e4132b306a7d42222434a5d64dab2c0f"
+    },
+    {
+      "path": "analysis/deep/border-stress/blur-1.png",
+      "bytes": 70858,
+      "sha256": "d3f0dfb00753c9b4731a49cb9d15b19664b1a71c96a3fee3e6a321033f7af903"
+    },
+    {
+      "path": "analysis/deep/border-stress/blur-3.png",
+      "bytes": 106440,
+      "sha256": "d274ac060a2f97d9917d8930d21e49660b2936a10898bc733559e392af928a8a"
+    },
+    {
+      "path": "analysis/deep/border-stress/blur-6.png",
+      "bytes": 107860,
+      "sha256": "ae2c59d6aaacbde9e4d9c7274db6a0df590f9dd70f38324293b18bc41558fcc1"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-0.png",
+      "bytes": 27924,
+      "sha256": "0196cff12f759d4b7d62db31b2f3805dda6fd05e6be51bffca7ef3a00442c51d"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-135.png",
+      "bytes": 81189,
+      "sha256": "4147fb3c766ec98248a13e71836a91f3d2f831e929b1cee641bc074db1d6d7f5"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-20.png",
+      "bytes": 66974,
+      "sha256": "7947273ea7a381b6d5d271c7a431eecb0a452b9bc7813e1f8a80d4f0c6991c56"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-35.png",
+      "bytes": 77183,
+      "sha256": "d952951bc4d1397d5591e5cf10ed3b14e9b0472567a5b03311bf52605c838fbf"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-40.png",
+      "bytes": 79288,
+      "sha256": "a7b4567e2960d7ab98cb590499fbb66bbad7cd28b1205821e87664c4c9df5ec1"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-45.png",
+      "bytes": 79906,
+      "sha256": "ec36c06a0e09b18480d229d54069360b4c1d07d9da4ee0f679d9412d54c09f31"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-50.png",
+      "bytes": 82282,
+      "sha256": "d352e55b528cfb5a3144f1704cc11ba68797e650b6b3131b13bfccd8fe528bc9"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-60.png",
+      "bytes": 84498,
+      "sha256": "ac25c5303e7c71ce54872ffbaa418a45ae03e87d64aeda179d9677200c846bf1"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-80.png",
+      "bytes": 85952,
+      "sha256": "f8ae732d8fc8caab58f99f0b88715e9d77e1df402e504d15b6305d2e3f6112a9"
+    },
+    {
+      "path": "analysis/deep/border-stress/clean-rotation-90.png",
+      "bytes": 81263,
+      "sha256": "b2681c376b79247b3e207037f529987a3f9968b2634699cd09390ecfb317834f"
+    },
+    {
+      "path": "analysis/deep/border-stress/contrast-0.05.png",
+      "bytes": 17798,
+      "sha256": "32de5abdcbe33b2c4aaa3076bad3b898b236500ab7e44c14aa4682b48f044503"
+    },
+    {
+      "path": "analysis/deep/border-stress/contrast-0.1.png",
+      "bytes": 21356,
+      "sha256": "f60b65cc809135634dcb582096dd1d4f72afc3e585ae2402e17d0106fbaf04e6"
+    },
+    {
+      "path": "analysis/deep/border-stress/contrast-0.3.png",
+      "bytes": 26671,
+      "sha256": "d30e87d37ae43d0afbb01f1e96155527cd7aef8d433fe77d1dac4ce12994307f"
+    },
+    {
+      "path": "analysis/deep/border-stress/gradient-vertical.png",
+      "bytes": 4490,
+      "sha256": "a03dbb746aae4efe1f4d9ab6c708fc3c3d1c6127ac83ad0d7e3f81cf3c4d806f"
+    },
+    {
+      "path": "analysis/deep/border-stress/gradient.png",
+      "bytes": 71613,
+      "sha256": "a5680cca43f62c575122b055f4093b62fb1c0f06631916fe5f1f05a5d89498a4"
+    },
+    {
+      "path": "analysis/deep/border-stress/improved.json",
+      "bytes": 28951,
+      "sha256": "348bf86d81dc0da8792b2f707c20f25459d065a28a792fe7d852f368bbed5da9"
+    },
+    {
+      "path": "analysis/deep/border-stress/jpeg-15.png",
+      "bytes": 100993,
+      "sha256": "854b16df8ef4386739d5fca436f211fe2bd967c4adecf0ca6887e2197709dd7b"
+    },
+    {
+      "path": "analysis/deep/border-stress/jpeg-35.png",
+      "bytes": 111154,
+      "sha256": "3fdd6fa599da9ddf167f64eb6e7997286e908be1ea84b760646757bfa3f65881"
+    },
+    {
+      "path": "analysis/deep/border-stress/native-resize.json",
+      "bytes": 28934,
+      "sha256": "d7dcfbc5504a2808a206c20cf73edcb5ea44cdafc2f2ab563129e273a93c5428"
+    },
+    {
+      "path": "analysis/deep/border-stress/noise-0.png",
+      "bytes": 1231683,
+      "sha256": "a15e03c49d17ba5061ee0c64ff84fbedec7adc7a97242f9f4519ee4ebab78d46"
+    },
+    {
+      "path": "analysis/deep/border-stress/noise-1.png",
+      "bytes": 1231683,
+      "sha256": "587300cd6c78fa31fc4fe203d2746b11fc333b6681b4d04754bdd9dd5c488dcc"
+    },
+    {
+      "path": "analysis/deep/border-stress/noise-2.png",
+      "bytes": 173954,
+      "sha256": "81d111bcf9adab19da2641b7449556a40e96bd01ce29d692e21bc8efd61aae2d"
+    },
+    {
+      "path": "analysis/deep/border-stress/noise-3.png",
+      "bytes": 174758,
+      "sha256": "02849cdd0c69dfa264b27048300d9702eaa9627c854bfb2e78b35dc1eb81e8de"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-0.png",
+      "bytes": 28019,
+      "sha256": "eb4ae8222ae64f7f9f52ab1bd57c07819db11b76971d5c7d06f1ea44932ef10e"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-135.png",
+      "bytes": 81878,
+      "sha256": "270bb531d77993ddd6b8e9557a53b369b884ebfe9943fb9ecef2ee3c064871c2"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-20.png",
+      "bytes": 67627,
+      "sha256": "9f109007c39f4b15dfdf4ab877d9fe17272b727dbac5dc52604d5b1dae15a415"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-35.png",
+      "bytes": 77855,
+      "sha256": "75a6360cf19a2739b9c32b059d426ec7d679ffe97726384076059c45cd661a9d"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-40.png",
+      "bytes": 79949,
+      "sha256": "513e070c979b8c73db4488109919a4f922b077e80df8e8a6cf77fa6d2a7d09b3"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-45.png",
+      "bytes": 80554,
+      "sha256": "13f00748ef6a9befdb8ad053aa09f5917f3b979b72240b3445c470fa3d7d78cd"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-50.png",
+      "bytes": 82949,
+      "sha256": "1daf79459eb6d771b0606467f99f235cbaefa9514c0c2321f368100c6a72ea60"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-60.png",
+      "bytes": 85205,
+      "sha256": "57cfa071ca78cc29ff180ea8679691c2ffb9e08e56d5d05c4a4d32f59bbca653"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-80.png",
+      "bytes": 86876,
+      "sha256": "50b4709388c0c0d803544c83dc1f3a70647df89c511956609a9b9ba3d112185f"
+    },
+    {
+      "path": "analysis/deep/border-stress/occluded-rotation-90.png",
+      "bytes": 81790,
+      "sha256": "f7fb4e0774ce22e2d457ead422ba3467792423a12ddcde40ebf73274796ef13d"
+    },
+    {
+      "path": "analysis/deep/border-stress/saved-input-regression.json",
+      "bytes": 455,
+      "sha256": "3369fbd9fe3c78a8b3dc690c5fd7c3f9a25805c671a49c5796db993a4808b3fc"
+    },
+    {
+      "path": "analysis/deep/border-stress/shadow-0.35.png",
+      "bytes": 152755,
+      "sha256": "26830af764a97e5374609565cd8ad8602c70986ea8e9a3b95b789d240fcb2c84"
+    },
+    {
+      "path": "analysis/deep/border-stress/shadow-0.65.png",
+      "bytes": 175371,
+      "sha256": "cec374bee39e1cff6d6b62868bc0ba27285da22a9360d7944c678582be8fb259"
+    },
+    {
+      "path": "analysis/deep/border-stress/shadow-0.85.png",
+      "bytes": 196397,
+      "sha256": "23ebefa75f6dcb21ed3ca39042bc1ba9de461e416131f3419110362fc8a1156c"
+    },
+    {
+      "path": "analysis/deep/border-v121-comparison.jpg",
+      "bytes": 262063,
+      "sha256": "c72660a1dcfa7230f90339b1f5480d71423e1549a6a924888da562287a84ff19"
+    },
+    {
+      "path": "analysis/deep/border_regressions.dart",
+      "bytes": 311962,
+      "sha256": "63719d8bea764ac0da73661a1d9562a53fc100422d438f57fa93604b754c891a",
+      "lines": 25,
+      "symbols": []
+    },
+    {
+      "path": "analysis/deep/build-v12-probe.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/build-v12-qa.log",
+      "bytes": 1022,
+      "sha256": "5e1ce2760bbd7b83cbf7602a34be0bd6b10373a6a8ad0401c2069d82ddc3a516"
+    },
+    {
+      "path": "analysis/deep/build-v12-release.log",
+      "bytes": 1043,
+      "sha256": "e34a51058bcbbf725bec5232ad4ef5bb445c7be2d3a3ad045fb24d9e11958634"
+    },
+    {
+      "path": "analysis/deep/build-v121-probe.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/build-v121-release.log",
+      "bytes": 1255,
+      "sha256": "85a3c74fbc69ae4c97da96d207672b81f9a6899fc2cc03e93024662ee1fe5fba"
+    },
+    {
+      "path": "analysis/deep/build-v122-probe.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/build-v122-release.log",
+      "bytes": 1810,
+      "sha256": "9807c198bace72cad547f34cb85cc6247053ea69f2d477ab8fbd824b5510e18a"
+    },
+    {
+      "path": "analysis/deep/corner-order-host.log",
+      "bytes": 82,
+      "sha256": "79f1e8dc614a422be9ebc72ab73ef7c81f79d1a77e2fe185a46168a1de3bd842"
+    },
+    {
+      "path": "analysis/deep/crop-geometry-host.log",
+      "bytes": 99,
+      "sha256": "a9767ad5feca6cda802f1a511701fe97b63975f49699f2a19d06ba2b9133bf99"
+    },
+    {
+      "path": "analysis/deep/engine-comparison.jpg",
+      "bytes": 303821,
+      "sha256": "1367e67bc4795a830e2cb9320f59248d729b5c0e2f64e7b4ed48470c36ccb3ce"
+    },
+    {
+      "path": "analysis/deep/geometry-android-v122-comparison.jpg",
+      "bytes": 235558,
+      "sha256": "b00574fd28dd5b29ca9c717fb0ca1334bc4bbb8a01a6140d8494f1b2ebd88c26"
+    },
+    {
+      "path": "analysis/deep/geometry-kotlin-comparison.jpg",
+      "bytes": 234798,
+      "sha256": "036f203c05d7a91e0ec3b5efbac4784ac4925a005e62559a3f72f0c6640fb147"
+    },
+    {
+      "path": "analysis/deep/geometry-v12-comparison.jpg",
+      "bytes": 236541,
+      "sha256": "d536a65f4974c4ec1d5b68b12248c2cd0b6fb85027e46196ddb6fc6580e51486"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/flat-jvm.jpg",
+      "bytes": 235388,
+      "sha256": "2adb516bee96307f58a16496f45939cd9b11ed86dcd6b316b23fff1e7ae45ff2"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/lowcontrast-jvm.jpg",
+      "bytes": 269879,
+      "sha256": "0f44f431aca752f2731dec72da5c51229493f872c5a81f95695692000ad824b3"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/occluded-jvm.jpg",
+      "bytes": 300355,
+      "sha256": "8a0faa88315eac6dd2b002cfa9f9f6e8d066ef9e83caa848b3fdba8cf1e0d9d0"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/perspective-jvm.jpg",
+      "bytes": 280445,
+      "sha256": "a37fe60aec7532e4388f0eb545fe5b353079c13ab32196041de63e344cdc59db"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/real-curved-jvm.jpg",
+      "bytes": 1145322,
+      "sha256": "214fe18f5451d338af608e978507ff9834620d5065e63c49f70f76712541d29b"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/real-shadow-jvm.jpg",
+      "bytes": 1309166,
+      "sha256": "7ea3bfbfeff3c8d87ff4b8e26d5904a8a86006ce8efde7212ccf9dc1c089ad69"
+    },
+    {
+      "path": "analysis/deep/host-jvm/dewarp/report.json",
+      "bytes": 5697,
+      "sha256": "4086d0a597b1456ef97ff6813b740b07da364310827c28adf7d06254831f7941"
+    },
+    {
+      "path": "analysis/deep/host-jvm/isoluminant-model-check.json",
+      "bytes": 376,
+      "sha256": "8802a073d82b9554357655255b9173beddc7bde254b3039ef1dd23807f1e3827"
+    },
+    {
+      "path": "analysis/deep/host-jvm/isoluminant-page.png",
+      "bytes": 4023,
+      "sha256": "322c96fa47e74ba5b35a2540135192d17bee800685665eda9d96578fb3de4167"
+    },
+    {
+      "path": "analysis/deep/host-jvm/v121-before-report.json",
+      "bytes": 9587,
+      "sha256": "a3d253a577f0de0f417b89fdf38ede0248da371274366488a297028b6021450b"
+    },
+    {
+      "path": "analysis/deep/host-jvm/v122-after-report.json",
+      "bytes": 10001,
+      "sha256": "b4cf0933b4f1b0e51a69aaf00987d9c692a93d71a326f1d97b737b92ab277b94"
+    },
+    {
+      "path": "analysis/deep/integration-v122-phone.log",
+      "bytes": 5155563,
+      "sha256": "3f9e68def3dc725af1e63bd378726ff3aea2d1ab931ba44dac5e7d08e7912c16"
+    },
+    {
+      "path": "analysis/deep/integration-v123-phone.log",
+      "bytes": 5725,
+      "sha256": "da3ede4972cb10b630c2a6fd0f5fd3fe9e70752c7d6855fe93a74373c2c6dd53"
+    },
+    {
+      "path": "analysis/deep/integration-v123-qa-phone.log",
+      "bytes": 5156713,
+      "sha256": "2d7dc3aa950d588868d7e476d1fbd2f28fa7052d888ee6762d0ca5a0670f521a"
+    },
+    {
+      "path": "analysis/deep/live-probe/build-info.json",
+      "bytes": 272,
+      "sha256": "6470cc07736d1d40684adc6aed505c8d623b42c0a526700fcec4f1e3e67988ed"
+    },
+    {
+      "path": "analysis/deep/live-probe-result.json",
+      "bytes": 8585,
+      "sha256": "74a48b34a9e3bc127ca6eec8f0c7fcda66600ac968c61b771374c7bcf65b5d72"
+    },
+    {
+      "path": "analysis/deep/live-probe-v122-android.json",
+      "bytes": 8536,
+      "sha256": "79f90b10d1713b6546dde37954148da456ef144632018bc127c6e4dd2a0f952f"
+    },
+    {
+      "path": "analysis/deep/live-probe-v122-android.log",
+      "bytes": 4541,
+      "sha256": "ad372902f3c662b7f4817fd1c6a7e15a31f30bc02257efd9c5300bf39fba6470"
+    },
+    {
+      "path": "analysis/deep/native/findLines_EDLine.annotated.c",
+      "bytes": 14067,
+      "sha256": "df9de70f853fba3debb4ac62c4b61d1dee70e2399f85fbdacea6818334868947"
+    },
+    {
+      "path": "analysis/deep/native/to_tensor.annotated.c",
+      "bytes": 5150,
+      "sha256": "158b3ea6f43d1efbdaf1466a3b8c2e88758f5f12c9b2af190d3e0325fc56d839"
+    },
+    {
+      "path": "analysis/deep/opencv-host-manifest.json",
+      "bytes": 628,
+      "sha256": "c610c414147479064be9acd7da6ab765cb0ecac19d7a48f19ca795add69d000b"
+    },
+    {
+      "path": "analysis/deep/performance-v123/after-parity.json",
+      "bytes": 2648,
+      "sha256": "f625023a7ab1dfe7e4cb0673e428e67fd5d065be35392e303c5037f43e3db57e"
+    },
+    {
+      "path": "analysis/deep/performance-v123/after-parity.log",
+      "bytes": 2362,
+      "sha256": "96dcd63121964c534d35806d36db957b84d9cc660db9d7459b39e5b7d30296df"
+    },
+    {
+      "path": "analysis/deep/performance-v123/after.json",
+      "bytes": 3559,
+      "sha256": "35f9c2992d1c407de1eb8261200553cbea2a8417f42ebf0c23951a10561da9dc"
+    },
+    {
+      "path": "analysis/deep/performance-v123/after.log",
+      "bytes": 4928,
+      "sha256": "49469cd0c7be0c3433938a194a98093b9f179e4eba047d8ab1d0db832b5fc800"
+    },
+    {
+      "path": "analysis/deep/performance-v123/analyze.log",
+      "bytes": 60,
+      "sha256": "9a9d35ce9d6fac973a72f078461e18cde1f1c7f2ae7fa7a5916ae87adef4b99a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/app-quality-comparison.json",
+      "bytes": 1493,
+      "sha256": "e56c8310f92207e1701f1fb434e9d63306c277d4654f3028ad6dd1cd16733b07"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline-parity.json",
+      "bytes": 2849,
+      "sha256": "51471ac552c673a45facb18b57b5a7f5eb4fe499ba29f5021a77bd6532868ed4"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline-parity.log",
+      "bytes": 2549,
+      "sha256": "0b14f8d036b230f31aeb53800304ce623161075fce756c69ed50238ba4e4f351"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline-recheck.json",
+      "bytes": 3779,
+      "sha256": "4ec4495ac18f65790cf347ce0bcfafb8c34ea477d68cbbb24900e25975c2a3c8"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline-recheck.log",
+      "bytes": 4980,
+      "sha256": "07d666e0d6521a730493d203248494466620558ebfc67c7a4205899485b8c976"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline.json",
+      "bytes": 3574,
+      "sha256": "030710426920f0698a2f811370a0cafec59419fb9895022b7ecc234172a334af"
+    },
+    {
+      "path": "analysis/deep/performance-v123/baseline.log",
+      "bytes": 4959,
+      "sha256": "bc75e9d36c0070c25d58d94af35116b2c8c8185659ced6c0e87f5449c6427522"
+    },
+    {
+      "path": "analysis/deep/performance-v123/border-regression.json",
+      "bytes": 5148,
+      "sha256": "30c318cae64b5a47149e88a21c2586a223ba6a0e4aa27c43f38a295eedd9f6b3"
+    },
+    {
+      "path": "analysis/deep/performance-v123/border-regression.log",
+      "bytes": 3653,
+      "sha256": "0030b80239bd42781a518cbdb2b78b7e5b4b14a71073e4b10fed1a754c7722f6"
+    },
+    {
+      "path": "analysis/deep/performance-v123/border-threads.json",
+      "bytes": 1187,
+      "sha256": "3ccd9837ed2e9f50283dad42ab562a04f5e4820c2458943fc1a48b051fcb51fd"
+    },
+    {
+      "path": "analysis/deep/performance-v123/border-threads.log",
+      "bytes": 1008,
+      "sha256": "daf4369c5ba3235071273549375c2e8db47a9e288b4cb41d6fd2b95c5644dd03"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-baseline-parity.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-baseline-parity20.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-final-probe.log",
+      "bytes": 309,
+      "sha256": "3dd1fd6e977fbb1a99888ddb35e376453aa6311e6bfab9754975ea5ac064d5fe"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-host-probe.log",
+      "bytes": 70,
+      "sha256": "744b0d5a57341352408b9c2e01800467e1d8b83abfd3b09cc453efc4dc68a4cf"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-paired-baseline.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-paired-current.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-probe.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-qa-isolation.log",
+      "bytes": 873,
+      "sha256": "32f4f775a495fe4e4ad790f4e441db458d58d17aaabc1646b13562b38479f429"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-release-final.log",
+      "bytes": 1043,
+      "sha256": "f6328a5facda1a26dd3a85830f69deffaea7e8389b8d7fa022fb858a2efc2aaf"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-release-verified.log",
+      "bytes": 1043,
+      "sha256": "346f5e500733bb54656214cb87eb741da5862b315569251f11a2265594c8192c"
+    },
+    {
+      "path": "analysis/deep/performance-v123/build-release.log",
+      "bytes": 1255,
+      "sha256": "8c8410f695763727a8898000851ad15d7aae7fea2309b0fd6ef1c32cf80efc75"
+    },
+    {
+      "path": "analysis/deep/performance-v123/dewarp-threads.json",
+      "bytes": 1219,
+      "sha256": "54b428f71806dfe27ba63e8626ec440e7a44196b1b6bc3e22302baf24fce2a0a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/dewarp-threads.log",
+      "bytes": 1008,
+      "sha256": "af252f5b1f07efc06a9f8dde6b9797a25a06dd6434eb00d0a3106df77b36149f"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-live.json",
+      "bytes": 8582,
+      "sha256": "3e559ec6635b1512ddc37a66863be31ee126bc8d88391e33a20fbf8879cbf049"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-live.log",
+      "bytes": 4569,
+      "sha256": "eeaeca9f397510fbb6984fd39d7412a139d0337d74e67329c46e2fbf5fd0ab10"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-parity.json",
+      "bytes": 2849,
+      "sha256": "51471ac552c673a45facb18b57b5a7f5eb4fe499ba29f5021a77bd6532868ed4"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-parity.log",
+      "bytes": 2549,
+      "sha256": "0b14f8d036b230f31aeb53800304ce623161075fce756c69ed50238ba4e4f351"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-speed.json",
+      "bytes": 3752,
+      "sha256": "821b98a5fe96772a55c4e1afe04d5bab7f64aad148df67c7024be647afd76ca3"
+    },
+    {
+      "path": "analysis/deep/performance-v123/final-speed.log",
+      "bytes": 4926,
+      "sha256": "e86ae9cbe1355476e5eaba8c6c065cdd0ca8d3ce7c390c63655054f30206f697"
+    },
+    {
+      "path": "analysis/deep/performance-v123/geometry-verified.log",
+      "bytes": 2383,
+      "sha256": "02437477ee09522323506244f2540bd432070d3339881bdbbbafbd6029563f2a"
+    },
+    {
+      "path": "analysis/deep/performance-v123/geometry.log",
+      "bytes": 2383,
+      "sha256": "4058ddba133659a7cdf08f13bf9fa4dc11a6423d16b84be3a93c1a83b84a5d54"
+    },
+    {
+      "path": "analysis/deep/performance-v123/package.log",
+      "bytes": 1863,
+      "sha256": "490f1c1e2c89b4145a1b12ac6cf5e67f51a5aab14cf4194284b13d7557cfdb17"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-0-baseline.log",
+      "bytes": 1717,
+      "sha256": "f4829ade32038d4d8c7e373bdfdade271da5c8a998bd13cec8a476e64f5dfafb"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-1-current.log",
+      "bytes": 1728,
+      "sha256": "beb242e66b4eaa0ab8b53c67f0d6864b525d28c66749e4c0d109d27257dbfc5d"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-2-current.log",
+      "bytes": 1714,
+      "sha256": "cc33afc259483a70d3878efca7519c4fbbcbb3b9f680f64386797909c127fad2"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-3-baseline.log",
+      "bytes": 1730,
+      "sha256": "e8860c6a362f44e5919f34bd90978ca50c45e0aa49f6de3ddcd89b9974d00538"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-report.json",
+      "bytes": 4135,
+      "sha256": "8a2fefce29ddb375fa2407bc4108f1d5c1b2d0488b9fcbab7a00bb10fa9fbe3c"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-runs.json",
+      "bytes": 6646,
+      "sha256": "65d1e9cdd01c04dd60c23b6a683e5426c641230c1024365b6521d9f86fe39acd"
+    },
+    {
+      "path": "analysis/deep/performance-v123/paired-validation.log",
+      "bytes": 1424,
+      "sha256": "1e064d83183a882d7363b92a602d9749abd943240390c15b3a6701abd308a470"
+    },
+    {
+      "path": "analysis/deep/performance-v123/qa-isolation-correction.json",
+      "bytes": 1323,
+      "sha256": "3d15c4ae529e042777f35a06972fbf1b4ec85fa810ad18b9bce0f8b8840dfc34"
+    },
+    {
+      "path": "analysis/deep/performance-v123/report.json",
+      "bytes": 3467,
+      "sha256": "c9a1353e87abb53f1d3f8070d908deddd2f4ad9cd695d31a407874e850fae7fb"
+    },
+    {
+      "path": "analysis/deep/performance-v123/unit.log",
+      "bytes": 1201,
+      "sha256": "7d32ad90e0119934b93d6ea78974245af11c309592854d5cc7d1bf9631290007"
+    },
+    {
+      "path": "analysis/deep/performance-v123/validation.log",
+      "bytes": 1875,
+      "sha256": "d8b9aafda9423272fb51c954cda863939e20e71ec63682841542554394bea1aa"
+    },
+    {
+      "path": "analysis/deep/performance-v124/after/comparison.json",
+      "bytes": 1961,
+      "sha256": "4f58413f565043b32f2f5ef3ac80357ba5921acd84745e2a6fb1c86b2113b6be"
+    },
+    {
+      "path": "analysis/deep/performance-v124/after/jpeg-hashes.json",
+      "bytes": 681,
+      "sha256": "4e8cfc7011e52fdc8e2aab6c729abf46c21edda240152a5ba085ed6baef9b34d"
+    },
+    {
+      "path": "analysis/deep/performance-v124/after/pipeline.json",
+      "bytes": 4784,
+      "sha256": "01ec1058b81806b824fe6864e0af0ffeca49242f7c8a698de4c09527e640a42b"
+    },
+    {
+      "path": "analysis/deep/performance-v124/analyze.log",
+      "bytes": 60,
+      "sha256": "9a9d35ce9d6fac973a72f078461e18cde1f1c7f2ae7fa7a5916ae87adef4b99a"
+    },
+    {
+      "path": "analysis/deep/performance-v124/baseline/jpeg-hashes.json",
+      "bytes": 681,
+      "sha256": "4e8cfc7011e52fdc8e2aab6c729abf46c21edda240152a5ba085ed6baef9b34d"
+    },
+    {
+      "path": "analysis/deep/performance-v124/baseline/pipeline.json",
+      "bytes": 4804,
+      "sha256": "9db805f07831849cd381f13c70b99a5f8851004cb2d78544238c81a3bf4776bd"
+    },
+    {
+      "path": "analysis/deep/performance-v124/baseline-pipeline.log",
+      "bytes": 5071782,
+      "sha256": "aba3f8b27d339562ba0aaaa154c7cdc22aa98fdc0398563faf83d586cc0fa3c8"
+    },
+    {
+      "path": "analysis/deep/performance-v124/build-host-probe.log",
+      "bytes": 70,
+      "sha256": "7d559b43e8ef20f482ec908923645368aaf42f863645d61453d2c89a8b37d64a"
+    },
+    {
+      "path": "analysis/deep/performance-v124/build-release.log",
+      "bytes": 1255,
+      "sha256": "6a42e93baaefe2b026d65cfc4331f66a1483e4f78c602f2beadfc5b2380f7e98"
+    },
+    {
+      "path": "analysis/deep/performance-v124/build-warp-probe.log",
+      "bytes": 143,
+      "sha256": "a6f3fd90600a06b8a43546f676798b9e9b5aeca18a20365b7634a495f8e5ec0a"
+    },
+    {
+      "path": "analysis/deep/performance-v124/install.log",
+      "bytes": 513,
+      "sha256": "75865aa7f5e1c23942dcf8f0d42d2a1b503ec454532928fe9d53168d9c0ac0e7"
+    },
+    {
+      "path": "analysis/deep/performance-v124/integration.log",
+      "bytes": 10224524,
+      "sha256": "9ff7390ce12925b1d9ae456c35305b48534c086896574b0329a28720213c2395"
+    },
+    {
+      "path": "analysis/deep/performance-v124/memo-checks.log",
+      "bytes": 110,
+      "sha256": "8f765f64f2d44d629e953a84fe3d3cc38c55e9c8db4bc128ae34fb865cc6bcce"
+    },
+    {
+      "path": "analysis/deep/performance-v124/production-preserved.json",
+      "bytes": 218,
+      "sha256": "2156ccee1076574f1b20422ebfc818a261a67da4729082ce045a2e21db3c922e"
+    },
+    {
+      "path": "analysis/deep/performance-v124/quality/parity.json",
+      "bytes": 1317,
+      "sha256": "2cb5fbf161ba958777ce6b3559c5fff01d96306695413943383d77888774d145"
+    },
+    {
+      "path": "analysis/deep/performance-v124/unchanged-engine.json",
+      "bytes": 2563,
+      "sha256": "57d1d67ae435a5758ffcac902192654483efbf377134c3336b68f09e3a50c865"
+    },
+    {
+      "path": "analysis/deep/performance-v124/unit.log",
+      "bytes": 1201,
+      "sha256": "7d32ad90e0119934b93d6ea78974245af11c309592854d5cc7d1bf9631290007"
+    },
+    {
+      "path": "analysis/deep/performance-v124/warp-parity.json",
+      "bytes": 1184,
+      "sha256": "cfc872d6afa6a0eab922dc420af789a838a196463f0f0b1bf4c5798ec92be0ba"
+    },
+    {
+      "path": "analysis/deep/performance-v124/warp-parity.log",
+      "bytes": 764,
+      "sha256": "c2a09e5b3bd9c7fb7948da69165f140813bb62c5180cf37b44a00fb9d7074a07"
+    },
+    {
+      "path": "analysis/deep/quality_fixtures.dart",
+      "bytes": 4478819,
+      "sha256": "db8681f97c7e0c87c5fdb7f3a93c1720d7dd0884a4f3040508931a5bc71c6260",
+      "lines": 1,
+      "symbols": []
+    },
+    {
+      "path": "analysis/deep/reference/flat-host-v12-corrected.jpg",
+      "bytes": 235388,
+      "sha256": "2adb516bee96307f58a16496f45939cd9b11ed86dcd6b316b23fff1e7ae45ff2"
+    },
+    {
+      "path": "analysis/deep/reference/flat-paired-reference.jpg",
+      "bytes": 229667,
+      "sha256": "78046c7c99ebb1ac474129e10df59034e5a4643b7523ca0f7ba47be8e65a393c"
+    },
+    {
+      "path": "analysis/deep/reference/flat-v12.jpg",
+      "bytes": 261209,
+      "sha256": "87fe4d66e672278ed3935c9c875a8bac9c8b4f70380875991e7d64b0e9a7ae0e"
+    },
+    {
+      "path": "analysis/deep/reference/flat.jpg",
+      "bytes": 52250,
+      "sha256": "9e2a363be898b5b9d45a960d09e7c009dd37038f85511f18776e6d169ad04edb"
+    },
+    {
+      "path": "analysis/deep/reference/host-dewarp-ablation.json",
+      "bytes": 5309,
+      "sha256": "908af842b034b65344ed68feeffb04d249d41a122a556c837ea6b61874e2dbe8"
+    },
+    {
+      "path": "analysis/deep/reference/host-geometry-validation.json",
+      "bytes": 2072,
+      "sha256": "bffe274c6674906f1c56cd206468e86128955da00aff3b45db7c6569194fc10b"
+    },
+    {
+      "path": "analysis/deep/reference/lowcontrast-host-v12-corrected.jpg",
+      "bytes": 269960,
+      "sha256": "bd1e34338f0993bcfa8ae2da97ef1db361b43913df64ab9d45332f4c52914c78"
+    },
+    {
+      "path": "analysis/deep/reference/lowcontrast-paired-reference.jpg",
+      "bytes": 245261,
+      "sha256": "051cefc9ae8ff03af01f69ada1354c48549dc0d564c0e63ab0661f147b688c00"
+    },
+    {
+      "path": "analysis/deep/reference/lowcontrast-v12.jpg",
+      "bytes": 301291,
+      "sha256": "f2f428f6ac5baa5d172dacc1fc8761aaf44a071ae142afe1f5b7f80215d477f5"
+    },
+    {
+      "path": "analysis/deep/reference/lowcontrast.jpg",
+      "bytes": 51518,
+      "sha256": "d5504e7e517c1576e70d60b26a91ab68690bd3f56cdaaee21b8b81eb3ee50314"
+    },
+    {
+      "path": "analysis/deep/reference/occluded-host-v12-corrected.jpg",
+      "bytes": 300510,
+      "sha256": "042303d5e9b934e2cb33c867d66d01578d53ac330cf726056f274b1da824f1ef"
+    },
+    {
+      "path": "analysis/deep/reference/occluded-paired-reference.jpg",
+      "bytes": 270061,
+      "sha256": "d9533b2076e38c5e6cd2377112bf077c8d711e5ebfd9016258f8b781ffbc8591"
+    },
+    {
+      "path": "analysis/deep/reference/occluded-v12.jpg",
+      "bytes": 321862,
+      "sha256": "c5c1c437281be8a8f4ee7401868ab30a3b0eb8605b163d62b936ee3decfa429e"
+    },
+    {
+      "path": "analysis/deep/reference/occluded.jpg",
+      "bytes": 63286,
+      "sha256": "2c420c46a74815201bccb4ac2f5994efc1f36b896f76b12483024b495dea7664"
+    },
+    {
+      "path": "analysis/deep/reference/perspective-host-v12-corrected.jpg",
+      "bytes": 280389,
+      "sha256": "851f5f285b795e875295660918d017fe621f9f017206c0d39c5693b06496bf69"
+    },
+    {
+      "path": "analysis/deep/reference/perspective-paired-reference.jpg",
+      "bytes": 254326,
+      "sha256": "4c79f01da94acdd380889ddb1648eee3584d63a2142b07a2c7910d7acc583239"
+    },
+    {
+      "path": "analysis/deep/reference/perspective-v12.jpg",
+      "bytes": 302968,
+      "sha256": "82d9027499eec07f0c372a7a28b352bb0e2f61b12895f302a0df70acac60f50e"
+    },
+    {
+      "path": "analysis/deep/reference/perspective.jpg",
+      "bytes": 51913,
+      "sha256": "fa88050363062220bae397c9202e8d62054f6345708f1548b9685b9e910d9584"
+    },
+    {
+      "path": "analysis/deep/reference/quality-report.json",
+      "bytes": 5262,
+      "sha256": "22cdbccf73f32a354b145010336191e97598adfb1bbb0a26e3e2e6b7c0930f88"
+    },
+    {
+      "path": "analysis/deep/reference/real-curved-host-v12-corrected.jpg",
+      "bytes": 1145448,
+      "sha256": "664aa61d8a0e9335cf7d6a327b91b967d5a5eb2b325742ca8c8b513bd8c0ef84"
+    },
+    {
+      "path": "analysis/deep/reference/real-curved-paired-reference.jpg",
+      "bytes": 990856,
+      "sha256": "7b971fc1cef0f4bee31e80d12eb70a8f7a06495275078cc1fb3c8262a0bdc102"
+    },
+    {
+      "path": "analysis/deep/reference/real-curved-v12.jpg",
+      "bytes": 1100090,
+      "sha256": "505cb90285cbf0893c44d76d7bb48d65dcdc85517949e88819130fc3c69a9521"
+    },
+    {
+      "path": "analysis/deep/reference/real-curved.jpg",
+      "bytes": 499749,
+      "sha256": "f664f7c15783e5a8cce3811297b806e87c940eaaae839c0c704c8d1dae14d75e"
+    },
+    {
+      "path": "analysis/deep/reference/real-shadow-host-v12-corrected.jpg",
+      "bytes": 1309229,
+      "sha256": "0f1c53e888a922c77d11a2bc26d76c203977b00dea63525d616a7639aba73806"
+    },
+    {
+      "path": "analysis/deep/reference/real-shadow-paired-reference.jpg",
+      "bytes": 1127251,
+      "sha256": "6a4169774a7a40aa1f8bbe7c1ac83c211532539a7ed13bb05f420380f34fb8a7"
+    },
+    {
+      "path": "analysis/deep/reference/real-shadow-v12.jpg",
+      "bytes": 1257307,
+      "sha256": "f9543fb587c753b31c7546081a6f9ad4bb47b94f0bc976e9aca158107f969b4e"
+    },
+    {
+      "path": "analysis/deep/reference/real-shadow.jpg",
+      "bytes": 551232,
+      "sha256": "ef4b00ead93c39ad48d24eb20fbb95b0a6bcf5cc6ef6ef7f16d4875717942a13"
+    },
+    {
+      "path": "analysis/deep/reference/render-inputs.json",
+      "bytes": 949,
+      "sha256": "87e34eb80dfe7a879afc65bd525ff9e53742b843da04ceacb9d886fd6a51d08c"
+    },
+    {
+      "path": "analysis/deep/reference/render-v12-comparison.json",
+      "bytes": 2397,
+      "sha256": "4a2b23729be0eb399c87d10281fecd95a587169d7c5f7c151e54b59e72b098ed"
+    },
+    {
+      "path": "analysis/deep/run-jvm-dewarp.log",
+      "bytes": 2144,
+      "sha256": "e971bbe4ccd420c7c937348ff2ce6fc9c68231a449393cbc9632ea0928c1d14e"
+    },
+    {
+      "path": "analysis/deep/unit-v12.log",
+      "bytes": 457,
+      "sha256": "aa8603cdc808b308ddb7e02cba93859754f267c55816f001a38514b20c5a65bb"
+    },
+    {
+      "path": "analysis/deep/unit-v121.log",
+      "bytes": 457,
+      "sha256": "aa8603cdc808b308ddb7e02cba93859754f267c55816f001a38514b20c5a65bb"
+    },
+    {
+      "path": "analysis/deep/unit-v122.log",
+      "bytes": 457,
+      "sha256": "aa8603cdc808b308ddb7e02cba93859754f267c55816f001a38514b20c5a65bb"
+    },
+    {
+      "path": "analysis/goal-audit.json",
+      "bytes": 10800,
+      "sha256": "e3a7a55c47091f8f48272597646af77a8bcbe0a46d4aff45291c99e91ada8f5c"
+    },
+    {
+      "path": "analysis_options.yaml",
+      "bytes": 1585,
+      "sha256": "98d70dd5a9033911f40e2e7f3ff9d74618e2aa13652990efe860ed0fe1cedfa9"
+    },
+    {
+      "path": "android/.gitignore",
+      "bytes": 267,
+      "sha256": "c9af75dbc2c8aa867476a09426c80b178c4aeed8b9393ae48503eedfa3273d71"
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "bytes": 2376,
+      "sha256": "eac35f434985a628f42c1b6eec21360ba2b84d94f2e4fc4012efccb6fc01cdf5"
+    },
+    {
+      "path": "android/app/src/debug/AndroidManifest.xml",
+      "bytes": 385,
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 2647,
+      "sha256": "da664d14b5694a0bb7d2e5f1f053bf5a2cbb3f2de682c53664afda7ff332b2e3"
+    },
+    {
+      "path": "android/app/src/main/assets/scanner/MNN-LICENSE.txt",
+      "bytes": 11346,
+      "sha256": "a830d59c4f98d110e0540d0581efada06192ba6e798434307d1794b07a290302"
+    },
+    {
+      "path": "android/app/src/main/assets/scanner/border.mnn",
+      "bytes": 1584816,
+      "sha256": "b9bde1e5d346f063018443bd3d54fca8b3316ef53e114cd5f8e13564590489e8"
+    },
+    {
+      "path": "android/app/src/main/assets/scanner/dewarp.mnn",
+      "bytes": 1584744,
+      "sha256": "9d1f68861920f0c0de9f6aa9ac55214276eec0d1856016d8ae741deff2992194"
+    },
+    {
+      "path": "android/app/src/main/cpp/CMakeLists.txt",
+      "bytes": 554,
+      "sha256": "dbfc6bcc74a55dd583c1b4786b03bb16ec0bc04dbcdbce4dbf839fca7c1a103d"
+    },
+    {
+      "path": "android/app/src/main/cpp/MNN-LICENSE.txt",
+      "bytes": 11346,
+      "sha256": "a830d59c4f98d110e0540d0581efada06192ba6e798434307d1794b07a290302"
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/ErrorCode.hpp",
+      "bytes": 877,
+      "sha256": "de7d2290e4e2f024ae51707298c30721a283367eb90a7abac113d27248d56dd0",
+      "lines": 44,
+      "symbols": [
+        "ErrorCode"
+      ]
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/HalideRuntime.h",
+      "bytes": 11476,
+      "sha256": "f1d35170fa3fc1c7433ca1d18ca5d016ad230f26a0ecfba91b9a7ef9a49f7a37"
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/Interpreter.hpp",
+      "bytes": 18728,
+      "sha256": "0c367286c5906572218ddfa6426007ca748cbf5433f6cd7c7c71ae3300b1f986",
+      "lines": 545,
+      "symbols": [
+        "Mode",
+        "Session",
+        "Tensor",
+        "Backend",
+        "Runtime",
+        "MNN_PUBLIC",
+        "MNN_PUBLIC",
+        "SessionMode",
+        "HintMode",
+        "ExternalPathType",
+        "GeometryComputeMask",
+        "SessionInfoCode"
+      ]
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/MNNDefine.h",
+      "bytes": 2827,
+      "sha256": "481f2ff7a4dd29ce779384b8f5169c8b1aee8ebd8f0a9ca4c2f8444de45f9b6f"
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/MNNForwardType.h",
+      "bytes": 4623,
+      "sha256": "b9c670a78f3ec42c81328429004fdd6c3ff1a172a52373dd09945a678e5ea167"
+    },
+    {
+      "path": "android/app/src/main/cpp/include/MNN/Tensor.hpp",
+      "bytes": 9381,
+      "sha256": "6f28b4d0338c6760582ed8d5632fa0c3691bdfacc421753b6d86407466a7bf5c",
+      "lines": 320,
+      "symbols": [
+        "MNN_PUBLIC",
+        "DimensionType",
+        "HandleDataType",
+        "MapType",
+        "TensorUtils"
+      ]
+    },
+    {
+      "path": "android/app/src/main/cpp/inference.cpp",
+      "bytes": 7600,
+      "sha256": "a62faa9ca285a7f0d6134509940f4e4dfe007724631e0a65b2923d1d40543b7a",
+      "lines": 144,
+      "symbols": []
+    },
+    {
+      "path": "android/app/src/main/jniLibs/arm64-v8a/libMNN.so",
+      "bytes": 2452856,
+      "sha256": "c91fb9e65ef45477406583cf374978c61713318893f6af473aecdafed4c17f60"
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/CornerOrder.kt",
+      "bytes": 622,
+      "sha256": "2c0291d00a8b6e185dfb1e26557bae74e200dfe3aa75326372af48991b248a04",
+      "lines": 17,
+      "symbols": [
+        "match"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/CropGeometry.kt",
+      "bytes": 1327,
+      "sha256": "63e3df99666cda629ccab07f909bcdb1cf36958e0efdd9f0ba911e4f136051af",
+      "lines": 30,
+      "symbols": [
+        "targetSize",
+        "length"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/LearnedGeometry.kt",
+      "bytes": 21664,
+      "sha256": "bce64ca0f65aa64b573a3f85ea378b4a741eaf9b88155a5ce9bf73db47a76626",
+      "lines": 351,
+      "symbols": [
+        "LearnedGeometry",
+        "Boundary",
+        "detect",
+        "neighbourhoodMax",
+        "edgeSupport",
+        "detectBrokenPerimeter",
+        "Line",
+        "signed",
+        "Opposite",
+        "crossing",
+        "validRefinement",
+        "refineHeat",
+        "refineSource",
+        "value",
+        "fit",
+        "intersections",
+        "flatten",
+        "distance",
+        "order"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/LiveScanner.kt",
+      "bytes": 8616,
+      "sha256": "45b17b84ed1005d113c1c236c55faba4521f2ff7d3792436a6b59526283939bc",
+      "lines": 157,
+      "symbols": [
+        "LiveScanner",
+        "Detection",
+        "takeCandidate",
+        "close",
+        "Stationary",
+        "close",
+        "clearStationary",
+        "sameColor",
+        "stationaryCorners",
+        "scan",
+        "reset",
+        "close"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/LocalModels.kt",
+      "bytes": 3000,
+      "sha256": "1d94656ace2c9678b1bd4ba5b50bf3522b0eb04734aa552c3b85a6595c32d46e",
+      "lines": 64,
+      "symbols": [
+        "LocalModels",
+        "create",
+        "infer",
+        "destroy",
+        "mapTile",
+        "maskTile",
+        "predict",
+        "close"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/MainActivity.kt",
+      "bytes": 27560,
+      "sha256": "d67dd2d6836cac591437cb7c9686f8012b8bdf8ee1599202c9f86c81e057903c",
+      "lines": 475,
+      "symbols": [
+        "MainActivity",
+        "onDestroy",
+        "configureFlutterEngine",
+        "savePdf",
+        "onActivityResult",
+        "detectFrame",
+        "importImage",
+        "detect",
+        "order",
+        "distance",
+        "edgeSupport",
+        "sample",
+        "render",
+        "finishRender",
+        "applyFilter"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/PageTracker.kt",
+      "bytes": 4407,
+      "sha256": "5f0ac85227fad5ee365b183740c9c65d81ed8adb1f370524d6a358b12e68285e",
+      "lines": 75,
+      "symbols": [
+        "PageTracker",
+        "alignTo",
+        "track",
+        "seed",
+        "reset",
+        "close"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/RenderGeometryCache.kt",
+      "bytes": 836,
+      "sha256": "7317d3f52ce18e5ec6cd66e1ec9611e558465ab34a05179d2316768dd430be20",
+      "lines": 26,
+      "symbols": [
+        "RenderGeometryCache",
+        "Hit",
+        "find",
+        "store",
+        "close"
+      ]
+    },
+    {
+      "path": "android/app/src/main/kotlin/dev/paperframe/paperframe/RenderMemoCache.kt",
+      "bytes": 2324,
+      "sha256": "46f703b3bd7d32ee6430d6800c1266bf865f58cd08d82ad34310a395e1f871a5",
+      "lines": 57,
+      "symbols": [
+        "RenderMemoCache",
+        "Variant",
+        "Encoded",
+        "useGeometry",
+        "filter",
+        "encoded",
+        "storeFilter",
+        "storeEncoded",
+        "bytes",
+        "close"
+      ]
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_paperframe.xml",
+      "bytes": 700,
+      "sha256": "0c5289e4c6b02bade7dbf8a1000f889ca16385426e12dc2cc461e1417f693963"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/launch_background.xml",
+      "bytes": 446,
+      "sha256": "2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-v21/launch_background.xml",
+      "bytes": 450,
+      "sha256": "dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 544,
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 442,
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 721,
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 1031,
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540"
+    },
+    {
+      "path": "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 1443,
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "bytes": 1014,
+      "sha256": "cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7"
+    },
+    {
+      "path": "android/app/src/main/res/values-night/styles.xml",
+      "bytes": 1013,
+      "sha256": "ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516"
+    },
+    {
+      "path": "android/app/src/profile/AndroidManifest.xml",
+      "bytes": 385,
+      "sha256": "b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c"
+    },
+    {
+      "path": "android/app/src/release/AndroidManifest.xml",
+      "bytes": 319,
+      "sha256": "24e863c9ce767a08f71a8a83f775288c4c0c27484358d8f98315606b3a80bafe"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "bytes": 561,
+      "sha256": "218f400e3fff31c9c986a2535dfb974560e1b4d33cc27b7c1fee96a2b7e44454"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 53636,
+      "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 207,
+      "sha256": "594a00250ef7a36609a01f3263bf5ed63963afaf9ca9f82f2cd1de0f6f056383"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 550,
+      "sha256": "cc108f31fb7144929779bd4681133a8de205ca3b752eaea5591cd9f00dbc4284"
+    },
+    {
+      "path": "android/gradlew",
+      "bytes": 4971,
+      "sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "bytes": 2404,
+      "sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62"
+    },
+    {
+      "path": "android/paperframe_android.iml",
+      "bytes": 1630,
+      "sha256": "c8e0091edeca4e766e9dcf948e59c86a0427381fb5e31768ae396eedde5f1dfc"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "bytes": 796,
+      "sha256": "092ba880c8d4a07591aafc082f45deedc9afcf60c113a4bb3d13cbe1a1fce9de"
+    },
+    {
+      "path": "integration_test/border_regression_test.dart",
+      "bytes": 1862,
+      "sha256": "7887aa22c636b90128719b077369c019942cc878908bf77c3608fc0636316273",
+      "lines": 48,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/engine_quality_test.dart",
+      "bytes": 6071,
+      "sha256": "96949b6831db1d94ef2b70f2ba112e703b908743f77123fab8cc67b3cea4a1d1",
+      "lines": 165,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/frame_test_support.dart",
+      "bytes": 667,
+      "sha256": "e8a06fed8c6751f825d2bd0c89c45e14e5d933ac4d97611a28b1d00c9143c0a4",
+      "lines": 17,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/render_pipeline_test.dart",
+      "bytes": 3124,
+      "sha256": "578003bed11b242cd2d1014152da7a16e6bf2f8367c5f6328ffcfefdee601df4",
+      "lines": 81,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/render_reuse_test.dart",
+      "bytes": 4021,
+      "sha256": "42243a98a200f60bdb64c1a4640665bcc50c3b53ecee2a242911e72277c1deb0",
+      "lines": 105,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/scanner_integration_test.dart",
+      "bytes": 9007,
+      "sha256": "574ce518bbf53998bdd4c7b5740e152e466b4526420d3ce899e6f2aa4378e7cc",
+      "lines": 271,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/scanner_suite.dart",
+      "bytes": 494,
+      "sha256": "a9993a81580a1e0eb6811fd8595dc9481a3b6242f0e8df6e3bfefff1f07a1921",
+      "lines": 16,
+      "symbols": []
+    },
+    {
+      "path": "integration_test/stationary_boundary_test.dart",
+      "bytes": 2200,
+      "sha256": "f42e73bda273ceb2de89acebe4d0c59f5e455f140dc98bb0446af9d3f539b4c8",
+      "lines": 59,
+      "symbols": []
+    },
+    {
+      "path": "lib/camera_frame.dart",
+      "bytes": 1417,
+      "sha256": "28782381b2386b98ed46b87cae033381a601a73e82eb9d10d805901cc8631d02",
+      "lines": 45,
+      "symbols": []
+    },
+    {
+      "path": "lib/camera_screen.dart",
+      "bytes": 16613,
+      "sha256": "70b3accd2e3ed30bf15fbb9872def7a41a7413b61e5e13be03a353de147c9ab9",
+      "lines": 480,
+      "symbols": [
+        "CameraScreen",
+        "_CameraScreenState",
+        "LiveEdgePainter"
+      ]
+    },
+    {
+      "path": "lib/document_store.dart",
+      "bytes": 917,
+      "sha256": "9b61612b6dcae9fafa44f28b99de3fae0da41623a02657f6e7b80cba1b16de97",
+      "lines": 29,
+      "symbols": [
+        "DocumentStore"
+      ]
+    },
+    {
+      "path": "lib/editor_screen.dart",
+      "bytes": 15141,
+      "sha256": "3e1fd23e1ed370da99553d9738c087ce23fd375869368a19ba00938fc97885b7",
+      "lines": 427,
+      "symbols": [
+        "EditorScreen",
+        "_EditorScreenState",
+        "CropPainter"
+      ]
+    },
+    {
+      "path": "lib/main.dart",
+      "bytes": 13760,
+      "sha256": "d1ea9ca970b46d4c901003aa1172adb0a47268b97f21536b9dbf3d50f2a819c5",
+      "lines": 445,
+      "symbols": [
+        "PaperframeApp",
+        "HomeScreen",
+        "_HomeScreenState",
+        "DocumentScreen",
+        "_DocumentScreenState"
+      ]
+    },
+    {
+      "path": "lib/scanner.dart",
+      "bytes": 5603,
+      "sha256": "24ef3026ed328f7596a2d41a8a7e5159bedabfeb63b0cdd1707b5372f7b8f092",
+      "lines": 212,
+      "symbols": [
+        "CaptureGate",
+        "ScanFilter",
+        "ScanPage",
+        "ScannerEngine"
+      ]
+    },
+    {
+      "path": "pubspec.lock",
+      "bytes": 23606,
+      "sha256": "5db323a72785082ceaf461b985f55385dce7f8617858c8394b8ab1430ef85050"
+    },
+    {
+      "path": "pubspec.yaml",
+      "bytes": 4094,
+      "sha256": "83ece081256cad7d123f3e77e8d38df990c908dd4e411488fbc8d5cd744b5010"
+    },
+    {
+      "path": "test/scanner_test.dart",
+      "bytes": 3301,
+      "sha256": "009f081508af7b46ee71a7e2539561abadfcbd42858195fe7278a27a89726686",
+      "lines": 113,
+      "symbols": []
+    },
+    {
+      "path": "tools/border_stress_contact_sheet.py",
+      "bytes": 1888,
+      "sha256": "decf5627ec72490e392d1bcc2ef4cb37247355d9596c39005180ee3967d8c8a6",
+      "lines": 30,
+      "symbols": []
+    },
+    {
+      "path": "tools/build_host_jvm_probe.py",
+      "bytes": 1904,
+      "sha256": "67de52067ea2561bca84d5e86a3860bfc44695e51d4b6d4d0a89dddc4aa3e5fe",
+      "lines": 36,
+      "symbols": []
+    },
+    {
+      "path": "tools/build_live_probe.py",
+      "bytes": 3332,
+      "sha256": "9c59a0bf20d54b6c45748764512ddc659934a8caf8825918c8ce8a5b979d5b13",
+      "lines": 47,
+      "symbols": [
+        "archive"
+      ]
+    },
+    {
+      "path": "tools/collect_quality_evidence.py",
+      "bytes": 2082,
+      "sha256": "a430025b89f7c13899d910ad3031ea0dcdcd032fc9bece497c647af875e950d5",
+      "lines": 33,
+      "symbols": []
+    },
+    {
+      "path": "tools/collect_render_pipeline.py",
+      "bytes": 2404,
+      "sha256": "95528b99be28f3f0455aff7857235c2161d8210dbb963b0568fb38905b24ffee",
+      "lines": 43,
+      "symbols": []
+    },
+    {
+      "path": "tools/crop_size_probe.cpp",
+      "bytes": 855,
+      "sha256": "176cf104e5e3fc670a737dd7ff294bdde45b84735eb1affa90e3b625861d57bf",
+      "lines": 17,
+      "symbols": []
+    },
+    {
+      "path": "tools/geometry_contact_sheet.py",
+      "bytes": 2263,
+      "sha256": "9377e684e3ab624ca3b047e6b052b6b486b3a93b86d80bd74ec88eb4dd1e107b",
+      "lines": 31,
+      "symbols": []
+    },
+    {
+      "path": "tools/host-jvm/HostBorderProbe.java",
+      "bytes": 2765,
+      "sha256": "5e51782b0055d29b999a046ab551dfed9d96f12daa930f226be9b973c27430f9"
+    },
+    {
+      "path": "tools/host-jvm/HostDewarpProbe.java",
+      "bytes": 3595,
+      "sha256": "02350e29fd8d478ab284f07519362afb5d6f1f7ad3dc1622b78c567834eaadad"
+    },
+    {
+      "path": "tools/host-jvm/HostExpiryProbe.java",
+      "bytes": 2021,
+      "sha256": "33df261b69fe5468af68c60ff1bbea3f685f064f975292d60121d756aacfd178"
+    },
+    {
+      "path": "tools/host-jvm/HostGeometrySafetyProbe.java",
+      "bytes": 4233,
+      "sha256": "a1a664a19a4190c6fd89aacfbdd51eb5051e2e36b4f3806049c5eb773886d712"
+    },
+    {
+      "path": "tools/host-jvm/HostLiveProbe.java",
+      "bytes": 4179,
+      "sha256": "6e96962f8585a3929ccf9e97f85fe648d8b246ebb56ea65a2ccdb26db3523be3"
+    },
+    {
+      "path": "tools/host-jvm/HostRenderMemoProbe.java",
+      "bytes": 2396,
+      "sha256": "2813b7d8063be6929eecc5cc59a0ce4006d5bf68ee6322c300710c77d2e4ad95"
+    },
+    {
+      "path": "tools/host-jvm/HostStationaryProbe.java",
+      "bytes": 3081,
+      "sha256": "cfdd4ff84ae51a29a10cd8b2ff609e87f4c49ec60263da1ba68ad18bdb6a88ef"
+    },
+    {
+      "path": "tools/host-jvm/android/os/SystemClock.java",
+      "bytes": 248,
+      "sha256": "cdbb6308878d5be628f332314761199f34875448ccba42b15f71d7195667e1d5"
+    },
+    {
+      "path": "tools/host-jvm/dev/paperframe/paperframe/LocalModels.java",
+      "bytes": 4080,
+      "sha256": "00c3fb5f5c5467553d23eb59fa47c78cddbaa0f0c7b8f01950662ea16058432b"
+    },
+    {
+      "path": "tools/host_border.py",
+      "bytes": 14208,
+      "sha256": "09ffa42cc7f3b980083c2b01b706d099b2bf626d45546eac7c97a933c44390ec",
+      "lines": 288,
+      "symbols": []
+    },
+    {
+      "path": "tools/host_dewarp_ablation.py",
+      "bytes": 3329,
+      "sha256": "483d5f39a496f1c0f3531b07db898169d82b77d9267a03a770edea955ed15b5a",
+      "lines": 44,
+      "symbols": []
+    },
+    {
+      "path": "tools/host_geometry.py",
+      "bytes": 1293,
+      "sha256": "71acb89e420f1c7787c739739a3995f3ea1c882477b3c0ecea384f040eb488f4",
+      "lines": 27,
+      "symbols": []
+    },
+    {
+      "path": "tools/install_verified_release.py",
+      "bytes": 4593,
+      "sha256": "d27ffea4a9cbf8cc9ca657bb56a33e05b9af76ec69f49e3ba8bc3afc9b5452fa",
+      "lines": 72,
+      "symbols": []
+    },
+    {
+      "path": "tools/live-probe/CornerOrderCheck.java",
+      "bytes": 1214,
+      "sha256": "fe2a5e8c126e78451ea60ab68ecb841b4f0d240a42f6fb500bf35faaf662f5df"
+    },
+    {
+      "path": "tools/live-probe/CropGeometryCheck.java",
+      "bytes": 1363,
+      "sha256": "57b62a8fbcfacc472de21050c883277a195bf626d55b044527e3b9e3a25b862a"
+    },
+    {
+      "path": "tools/live-probe/LiveEngineProbe.java",
+      "bytes": 5181,
+      "sha256": "549864539a10f9e8d4baff3be1c041c44573b7eae48a72dcdf9cc3f6ff12ec26"
+    },
+    {
+      "path": "tools/live-probe/PixelParityProbe.java",
+      "bytes": 5096,
+      "sha256": "56c21afc99a3451c6a9c0fb01d33282c926c095947000388a873c418a03a5a55"
+    },
+    {
+      "path": "tools/live-probe/RenderEngineProbe.java",
+      "bytes": 3248,
+      "sha256": "a78cdea9e7f398078096d5f2368a241ac2d30c0c460c82c6617b5de2d1e37ffa"
+    },
+    {
+      "path": "tools/live-probe/SpeedEngineProbe.java",
+      "bytes": 5427,
+      "sha256": "3894992fc033f555a47bbe689f6015cde0eac47e11cd5090ea8bbdee9251502b"
+    },
+    {
+      "path": "tools/live-probe/WarpParityProbe.java",
+      "bytes": 2250,
+      "sha256": "b6d06936b5660f00c371228ebdffb2bed29576b253d3254466c92d8bba11c169"
+    },
+    {
+      "path": "tools/mask_probe.cpp",
+      "bytes": 2685,
+      "sha256": "c70676c69618abcea6ceaba92296c7e14cf029b2c26eddc87a0371ddf3c6e840",
+      "lines": 46,
+      "symbols": []
+    },
+    {
+      "path": "tools/model_speed_probe.cpp",
+      "bytes": 2276,
+      "sha256": "ee3432b50fd58276ba7e60d83a15fa4943969fdf1dc046721d2a7f15770daf78",
+      "lines": 43,
+      "symbols": []
+    },
+    {
+      "path": "tools/package_delivery.py",
+      "bytes": 10601,
+      "sha256": "53a0ac168e10852320bac6ce3454f92efc4ea57794159994a8f45fc6bb07e050",
+      "lines": 138,
+      "symbols": []
+    },
+    {
+      "path": "tools/prepare_border_regressions.py",
+      "bytes": 929,
+      "sha256": "083280900750870a59d4317277193212d269768203133f0ac2f49bb3f6275f2d",
+      "lines": 15,
+      "symbols": []
+    },
+    {
+      "path": "tools/prepare_jvm_border_fixtures.py",
+      "bytes": 1629,
+      "sha256": "ce201f0a57409fda4afa7fc721242b09ed1bf813571669c4edfc849a14507a58",
+      "lines": 32,
+      "symbols": []
+    },
+    {
+      "path": "tools/prepare_quality_fixtures.py",
+      "bytes": 1301,
+      "sha256": "e045f1d2b6d2a83dc0cb2795be6d311f755f9dfe200f4de5c5b816d50570a22f",
+      "lines": 19,
+      "symbols": []
+    },
+    {
+      "path": "tools/rea_method.ps1",
+      "bytes": 1084,
+      "sha256": "f575ed34d9e36f135fc2bf11c635fed86e8c3b896810eb9f5bc5283e3342fa15"
+    },
+    {
+      "path": "tools/read_test_progress.py",
+      "bytes": 308,
+      "sha256": "9a99e6de401bb630cad6422a9ddbc71e79a8a9969cc1c1f3d1a2e1528b1c5738",
+      "lines": 9,
+      "symbols": []
+    },
+    {
+      "path": "tools/reference_probe.cpp",
+      "bytes": 2431,
+      "sha256": "c09ab35f70e93284780abb4d9de393abf8a62ba5c55d3976e823a4f230647471",
+      "lines": 43,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_android_geometry.py",
+      "bytes": 5581,
+      "sha256": "4b1810a9398f0792c4d2d94a80f747b20b4869a1c461eb4e06aa122c08d110f7",
+      "lines": 88,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_host_jvm_probe.py",
+      "bytes": 2370,
+      "sha256": "9e8c63bf6c6ec74a00a46b516d50dc18b353f46e0ab1a7c0fb05da86daa1def3",
+      "lines": 38,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_jvm_dewarp.py",
+      "bytes": 4777,
+      "sha256": "c9ac870d323333056f7c4075b3991f7119cf6283935d26771289a86aa04d300d",
+      "lines": 75,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_paired_speed.py",
+      "bytes": 3647,
+      "sha256": "700ecf96bd6140e620a211393a36a8c3535cbd74a46abc8832cc7faff1617551",
+      "lines": 56,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_render_comparison.py",
+      "bytes": 2432,
+      "sha256": "9f7dc2fa30ca1b483c5c5bceabdb7208b4ae48b5e4bad4ce7296c711243a17c4",
+      "lines": 29,
+      "symbols": []
+    },
+    {
+      "path": "tools/run_speed_validation.py",
+      "bytes": 3721,
+      "sha256": "70870729e78ab64e3faa45d74720633f7d3c7981485ee3d0efa929e0f0d17802",
+      "lines": 59,
+      "symbols": []
+    },
+    {
+      "path": "tools/stress_host_border.py",
+      "bytes": 4603,
+      "sha256": "b0bab557d51a64268829e02e8f5b03b5764171dd58b307ca6a1088c13022a2f0",
+      "lines": 80,
+      "symbols": []
+    },
+    {
+      "path": "tools/validate_host_geometry.py",
+      "bytes": 5521,
+      "sha256": "a7d872e9fcaf77359837b4de635f2e8c8b0e2acf5be7d922f14d4c1588d55c3a",
+      "lines": 92,
+      "symbols": []
+    },
+    {
+      "path": "tools/validate_saved_borders.py",
+      "bytes": 1002,
+      "sha256": "1a14d1c7e8c328912aa0de95ea6c775341fdc137247a5e9600345d46d67fec83",
+      "lines": 21,
+      "symbols": []
+    }
+  ],
+  "totalFiles": 348
+}
